@@ -32,21 +32,14 @@ namespace MetalArchivesNET.Parsers
                 var column = prop.GetCustomAttribute<ColumnAttribute>();
                 if (column != null)
                 {
-                    List<string> attributeTypeNames = prop.GetCustomAttributes().Select(t => t.GetType().Name).ToList();
 
                     FieldDecoratorBase lastDecorator = column;
-                    List<Type> decorators = typeof(FieldDecoratorBase).Assembly.GetTypes()
-                                            .Where(t => t.IsSubclassOf(typeof(FieldDecoratorBase)) && !t.IsAbstract && t != typeof(ColumnAttribute))
-                                            .OrderByDescending(t => attributeTypeNames.IndexOf(t.Name))
-                                            .ToList();
+                    List<FieldDecoratorBase> decorators = prop.GetCustomAttributes().Except(new List<Attribute> { column }).OfType<FieldDecoratorBase>().ToList();
 
                     foreach (var dec in decorators)
                     {
-                        if (prop.GetCustomAttribute(dec) is FieldDecoratorBase decorator)
-                        {
-                            decorator.SetDecorator(lastDecorator);
-                            lastDecorator = decorator;
-                        }
+                        dec.SetDecorator(lastDecorator);
+                        lastDecorator = dec;
                     }
 
                     assignList.Add((list, model) =>

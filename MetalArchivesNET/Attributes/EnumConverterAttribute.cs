@@ -7,6 +7,7 @@ namespace MetalArchivesNET.Attributes
     /// <summary>
     /// Converts string into enum
     /// </summary>
+    [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
     class EnumConverterAttribute : FieldDecoratorBase
     {
         /// <summary>

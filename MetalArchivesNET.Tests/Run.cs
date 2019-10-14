@@ -15,5 +15,13 @@ namespace MetalArchivesNET.Tests
             Assert.AreNotEqual(null, results);
         }
 
+        [TestMethod]
+        public void RunQuickAlbumdSearch()
+        {
+            IEnumerable<SimpleAlbumSearchResult> results = MetalArchives.Album.ByName("13");
+
+            Assert.AreNotEqual(null, results);
+        }
+
     }
 }

@@ -1,6 +1,7 @@
 ﻿using MetalArchivesNET.Attributes;
 using MetalArchivesNET.Attributes.Abstract;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
 
 namespace MetalArchivesNET.Tests
@@ -46,6 +47,43 @@ namespace MetalArchivesNET.Tests
 
             Assert.AreEqual(TestEnum.DescVal1, actual);
         }
+
+        [TestMethod]
+        public void DateTimeConverterOk()
+        {
+            DateTimeConverterAttribute dateTimeConverter = new DateTimeConverterAttribute("yyyy-MM-dd");
+            TestDecorator valueProvider = new TestDecorator("2019-10-14");
+
+            dateTimeConverter.SetDecorator(valueProvider);
+            DateTime actual = (DateTime)dateTimeConverter.GetValue();
+
+            Assert.AreEqual(new DateTime(2019, 10, 14), actual);
+        }
+
+        [TestMethod]
+        public void DateTimeAmericanConverterOk()
+        {
+            DateTimeConverterAttribute dateTimeConverter = new DateTimeConverterAttribute("MM/dd/yyyy");
+            TestDecorator valueProvider = new TestDecorator("10/14/2019");
+
+            dateTimeConverter.SetDecorator(valueProvider);
+            DateTime actual = (DateTime)dateTimeConverter.GetValue();
+
+            Assert.AreEqual(new DateTime(2019, 10, 14), actual);
+        }
+
+        [TestMethod]
+        public void RegexReplaceOk()
+        {
+            RegexReplaceAttribute regexReplace = new RegexReplaceAttribute("https?://", "");
+            TestDecorator valueProvider = new TestDecorator("http://example.com");
+
+            regexReplace.SetDecorator(valueProvider);
+            string actual = (string)regexReplace.GetValue();
+
+            Assert.AreEqual("example.com", actual);
+        }
+
     }
 
     class TestDecorator : FieldDecoratorBase

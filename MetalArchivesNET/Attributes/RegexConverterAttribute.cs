@@ -7,6 +7,7 @@ namespace MetalArchivesNET.Attributes
     /// <summary>
     /// Extracts regex group from string. Throws <see cref="Exception"/> when match won't succeed
     /// </summary>
+    [AttributeUsage(AttributeTargets.Property, AllowMultiple = true)]
     class RegexConverterAttribute : FieldDecoratorBase
     {
         public RegexConverterAttribute(string regex)

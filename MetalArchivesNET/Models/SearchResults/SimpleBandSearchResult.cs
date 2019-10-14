@@ -11,7 +11,7 @@ namespace MetalArchivesNET.Models.SearchResults
         [RegexConverter(@"<a.*?>(.+?)</a>")]
         public string Name { get; set; }
         [Column(0)]
-        [RegexConverter("<a href=\"(.*?)\">")]
+        [RegexConverter("<a href=\"(.*?)\".*>")]
         public string Url { get; set; }
         [Column(1)]
         public string Genre { get; set; }

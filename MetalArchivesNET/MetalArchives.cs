@@ -10,5 +10,10 @@ namespace MetalArchivesNET
         /// Search band
         /// </summary>
         public static SimpleSearcher<SimpleBandSearchResult> Band => new SimpleSearcher<SimpleBandSearchResult>(new SimpleBandConfigurators());
+
+        /// <summary>
+        /// Search album
+        /// </summary>
+        public static SimpleSearcher<SimpleAlbumSearchResult> Album => new SimpleSearcher<SimpleAlbumSearchResult>(new SimpleAlbumConfigurators());
     }
 }
