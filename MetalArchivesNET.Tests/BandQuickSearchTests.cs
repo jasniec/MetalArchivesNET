@@ -51,7 +51,7 @@ namespace MetalArchivesNET.Tests
         {
             List<SimpleBandSearchResult> results = GetResults();
             ICollection names = results.Select(r => r.Genre).ToList();
-            ICollection expectedNames = new List<string>
+            ICollection expectedGenres = new List<string>
             {
                 "Heavy/Doom Metal",
                 "Black/Death Metal/Ambient",
@@ -69,7 +69,7 @@ namespace MetalArchivesNET.Tests
                 "Raw Black Metal"
             };
 
-            CollectionAssert.AreEqual(expectedNames, names);
+            CollectionAssert.AreEqual(expectedGenres, names);
         }
 
         [TestMethod]
@@ -77,7 +77,7 @@ namespace MetalArchivesNET.Tests
         {
             List<SimpleBandSearchResult> results = GetResults();
             ICollection names = results.Select(r => r.Country).ToList();
-            ICollection expectedNames = new List<Country>
+            ICollection expectedCountries = new List<Country>
             {
                 Country.UnitedKingdom,
                 Country.UnitedStates,
@@ -95,7 +95,33 @@ namespace MetalArchivesNET.Tests
                 Country.France
             };
 
-            CollectionAssert.AreEqual(expectedNames, names);
+            CollectionAssert.AreEqual(expectedCountries, names);
+        }
+
+        [TestMethod]
+        public void UrlCheck()
+        {
+            List<SimpleBandSearchResult> results = GetResults();
+            ICollection names = results.Select(r => r.Url).ToList();
+            ICollection expectedUrls = new List<string>
+            {
+                @"https://www.metal-archives.com/bands/Black_Sabbath/99",
+                @"https://www.metal-archives.com/bands/Frostbitten_Sabbath/3540349683",
+                @"https://www.metal-archives.com/bands/Miasmal_Sabbath/3540425705",
+                @"https://www.metal-archives.com/bands/Sabbath_Assembly/3540400007",
+                @"https://www.metal-archives.com/bands/Sabbath_Knights/44843",
+                @"https://www.metal-archives.com/bands/Smoking_Sabbath/3540435846",
+                @"https://www.metal-archives.com/bands/White_Sabbath/101263",
+                @"https://www.metal-archives.com/bands/Witches_Sabbath/3540412697",
+                @"https://www.metal-archives.com/bands/Witches_Sabbath/3540403757",
+                @"https://www.metal-archives.com/bands/Witches_Sabbath/97927",
+                @"https://www.metal-archives.com/bands/Sabbath_Black_Heretic/3540442557",
+                @"https://www.metal-archives.com/bands/The_Witches_Sabbath/48387",
+                @"https://www.metal-archives.com/bands/Witches%27_Sabbath/13601",
+                @"https://www.metal-archives.com/bands/Blvck_Svbbvth/3540458070"
+            };
+
+            CollectionAssert.AreEqual(expectedUrls, names);
         }
 
         private List<SimpleBandSearchResult> GetResults()

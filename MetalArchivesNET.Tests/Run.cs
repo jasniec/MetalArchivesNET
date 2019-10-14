@@ -1,4 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using MetalArchivesNET.Models.SearchResults;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace MetalArchivesNET.Tests
 {
@@ -8,7 +10,7 @@ namespace MetalArchivesNET.Tests
         [TestMethod]
         public void RunQuickBandSearch()
         {
-            var results = MetalArchives.Band.ByName("black");
+            IEnumerable<SimpleBandSearchResult> results = MetalArchives.Band.ByName("black sabbath");
 
             Assert.AreNotEqual(null, results);
         }
