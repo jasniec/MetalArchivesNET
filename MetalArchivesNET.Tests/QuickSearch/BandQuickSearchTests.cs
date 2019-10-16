@@ -6,44 +6,17 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MetalArchivesNET.Tests
+namespace MetalArchivesNET.Tests.QuickSearch
 {
     [TestClass]
     public class BandQuickSearchTests
     {
-
         [TestMethod]
         public void CountCheck()
         {
             List<SimpleBandSearchResult> results = GetResults();
 
             Assert.AreEqual(14, results.Count);
-        }
-
-        [TestMethod]
-        public void NamesCheck()
-        {
-            List<SimpleBandSearchResult> results = GetResults();
-            ICollection names = results.Select(r => r.Name).ToList();
-            ICollection expectedNames = new List<string>
-            {
-                "Black Sabbath",
-                "Frostbitten Sabbath",
-                "Miasmal Sabbath",
-                "Sabbath Assembly",
-                "Sabbath Knights",
-                "Smoking Sabbath",
-                "White Sabbath",
-                "Witches Sabbath",
-                "Witches Sabbath",
-                "Witches Sabbath",
-                "Sabbath Black Heretic",
-                "The Witches Sabbath",
-                "Witches' Sabbath",
-                "Blvck Svbbvth"
-            };
-
-            CollectionAssert.AreEqual(expectedNames, names);
         }
 
         [TestMethod]
@@ -96,6 +69,32 @@ namespace MetalArchivesNET.Tests
             };
 
             CollectionAssert.AreEqual(expectedCountries, names);
+        }
+
+        [TestMethod]
+        public void NamesCheck()
+        {
+            List<SimpleBandSearchResult> results = GetResults();
+            ICollection names = results.Select(r => r.Name).ToList();
+            ICollection expectedNames = new List<string>
+            {
+                "Black Sabbath",
+                "Frostbitten Sabbath",
+                "Miasmal Sabbath",
+                "Sabbath Assembly",
+                "Sabbath Knights",
+                "Smoking Sabbath",
+                "White Sabbath",
+                "Witches Sabbath",
+                "Witches Sabbath",
+                "Witches Sabbath",
+                "Sabbath Black Heretic",
+                "The Witches Sabbath",
+                "Witches' Sabbath",
+                "Blvck Svbbvth"
+            };
+
+            CollectionAssert.AreEqual(expectedNames, names);
         }
 
         [TestMethod]

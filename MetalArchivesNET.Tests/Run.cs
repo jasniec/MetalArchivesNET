@@ -16,9 +16,17 @@ namespace MetalArchivesNET.Tests
         }
 
         [TestMethod]
-        public void RunQuickAlbumdSearch()
+        public void RunQuickAlbumSearch()
         {
             IEnumerable<SimpleAlbumSearchResult> results = MetalArchives.Album.ByName("13");
+
+            Assert.AreNotEqual(null, results);
+        }
+
+        [TestMethod]
+        public void RunQuickSongSearch()
+        {
+            IEnumerable<SimpleSongSearchResult> results = MetalArchives.Song.ByName("beneath the trees");
 
             Assert.AreNotEqual(null, results);
         }

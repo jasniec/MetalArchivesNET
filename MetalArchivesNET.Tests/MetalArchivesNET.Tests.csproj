@@ -68,9 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AttributesTests.cs" />
-    <Compile Include="BandQuickSearchTests.cs" />
+    <Compile Include="QuickSearch\AlbumQuickSearchTests .cs" />
+    <Compile Include="QuickSearch\BandQuickSearchTests.cs" />
     <Compile Include="Run.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickSearch\SongQuickSearchTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
