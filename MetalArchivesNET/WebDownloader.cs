@@ -14,7 +14,7 @@ namespace MetalArchivesNET
         /// </summary>
         /// <param name="url">As string format</param>
         /// <param name="parameters">name-value GET parameters</param>
-        public WebDownloader(string url, Dictionary<string, string> parameters)
+        public WebDownloader(string url, Dictionary<string, string> parameters = null)
         {
             _url = url;
             _parameters = parameters ?? new Dictionary<string, string>();

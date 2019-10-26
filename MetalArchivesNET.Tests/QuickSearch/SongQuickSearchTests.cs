@@ -1,5 +1,5 @@
 ﻿using MetalArchivesNET.Models.Enums;
-using MetalArchivesNET.Models.SearchResults;
+using MetalArchivesNET.Models.Results.SearchResults;
 using MetalArchivesNET.Parsers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
@@ -26,7 +26,7 @@ namespace MetalArchivesNET.Tests.QuickSearch
         public void NamesCheck()
         {
             List<SimpleSongSearchResult> results = GetResults();
-            ICollection names = results.Select(r => r.Title).ToList();
+            ICollection names = results.Select(r => r.SongTitle).ToList();
             ICollection expectedNames = new List<string>
             {
                 "A Desolation Song",

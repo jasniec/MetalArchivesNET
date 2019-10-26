@@ -1,5 +1,5 @@
 ﻿using MetalArchivesNET;
-using MetalArchivesNET.Models.SearchResults;
+using MetalArchivesNET.Models.Results.SearchResults;
 using MetalArchivesNET.Parsers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections;
@@ -23,7 +23,7 @@ namespace MetalArchivesNET.Tests.QuickSearch
         public void GenresCheck()
         {
             List<SimpleBandSearchResult> results = GetResults();
-            ICollection names = results.Select(r => r.Genre).ToList();
+            ICollection names = results.Select(r => r.BandGenre).ToList();
             ICollection expectedGenres = new List<string>
             {
                 "Heavy/Doom Metal",
@@ -49,7 +49,7 @@ namespace MetalArchivesNET.Tests.QuickSearch
         public void CountryCheck()
         {
             List<SimpleBandSearchResult> results = GetResults();
-            ICollection names = results.Select(r => r.Country).ToList();
+            ICollection names = results.Select(r => r.BandCountry).ToList();
             ICollection expectedCountries = new List<Country>
             {
                 Country.UnitedKingdom,
@@ -75,7 +75,7 @@ namespace MetalArchivesNET.Tests.QuickSearch
         public void NamesCheck()
         {
             List<SimpleBandSearchResult> results = GetResults();
-            ICollection names = results.Select(r => r.Name).ToList();
+            ICollection names = results.Select(r => r.BandName).ToList();
             ICollection expectedNames = new List<string>
             {
                 "Black Sabbath",
@@ -101,7 +101,7 @@ namespace MetalArchivesNET.Tests.QuickSearch
         public void UrlCheck()
         {
             List<SimpleBandSearchResult> results = GetResults();
-            ICollection names = results.Select(r => r.Url).ToList();
+            ICollection names = results.Select(r => r.BandUrl).ToList();
             ICollection expectedUrls = new List<string>
             {
                 @"https://www.metal-archives.com/bands/Black_Sabbath/99",

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MetalArchivesNET.Models.Enums
 {
-    public enum AlbumType
+    public enum AlbumType : byte
     {
         [Description("Full-length")]
         FullLength = 1,

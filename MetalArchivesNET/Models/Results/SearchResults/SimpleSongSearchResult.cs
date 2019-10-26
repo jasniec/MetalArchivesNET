@@ -1,18 +1,23 @@
 ﻿using MetalArchivesNET.Attributes;
 using MetalArchivesNET.Models.Enums;
+using MetalArchivesNET.Models.Results.Abstract;
+using MetalArchivesNET.Models.Results.FullResults;
+using MetalArchivesNET.Parsers;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
+using WebsiteParser;
 
-namespace MetalArchivesNET.Models.SearchResults
+namespace MetalArchivesNET.Models.Results.SearchResults
 {
     /// <summary>
     /// Representation of song result
     /// </summary>
-    public class SimpleSongSearchResult
+    public class SimpleSongSearchResult : BandResultBase
     {
         [Column(3)]
-        public string Title { get; set; }
+        public string SongTitle { get; set; }
         [Column(1)]
         [RegexConverter(@"<a.*?>(.+?)</a>")]
         public string AlbumName { get; set; }
@@ -27,6 +32,7 @@ namespace MetalArchivesNET.Models.SearchResults
         public string BandName { get; set; }
         [Column(0)]
         [RegexConverter("<a href=\"(.*?)\".*>")]
-        public string BandUrl { get; set; }
+        public override string BandUrl { get; set; }
+
     }
 }

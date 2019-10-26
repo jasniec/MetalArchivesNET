@@ -1,0 +1,1235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Band_Black_Sabbath" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;title&gt;Black Sabbath - Encyclopaedia Metallum: The Metal Archives&lt;/title&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+&lt;script type="text/javascript" nonce="2f7c9ee359a7400f87d2f3250de" src="//local.adguard.org?ts=1572091861100&amp;amp;type=content-script&amp;amp;dmn=www.metal-archives.com&amp;amp;css=1&amp;amp;js=1&amp;amp;gcss=1&amp;amp;rel=1&amp;amp;rji=1&amp;amp;stealth=1&amp;amp;uag="&gt;&lt;/script&gt;
+&lt;script type="text/javascript" nonce="2f7c9ee359a7400f87d2f3250de" src="//local.adguard.org?ts=1572091861100&amp;amp;name=AdGuard%20Popup%20Blocker&amp;amp;name=AdGuard%20Assistant&amp;amp;name=AdGuard%20Extra&amp;amp;type=user-script"&gt;&lt;/script&gt;&lt;link rel="stylesheet" type="text/css" href="/min/index.php?g=css" /&gt;
+&lt;script type="93e413bb7255b08547c0ece7-text/javascript" src="/min/index.php?g=js"&gt;&lt;/script&gt;
+&lt;script type="93e413bb7255b08547c0ece7-text/javascript"&gt;
+			var URL_SITE	= 'https://www.metal-archives.com/';
+			var URL_IMAGES	= 'https://www.metal-archives.com/images/';
+			var URL_CSS		= 'https://www.metal-archives.com/css/';
+			var csrfToken	= '';
+
+			$(document).ready(function() {
+				toggleFixedPositioning(1280, 600);
+				executeOnAllPages();
+				
+											});
+
+
+		&lt;/script&gt;
+&lt;noscript&gt;
+			&lt;style type="text/css"&gt;
+				.no-js { display: block !important; }
+			&lt;/style&gt;
+		&lt;/noscript&gt;
+&lt;!--[if lt IE 8]&gt;
+			&lt;script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"&gt;&lt;/script&gt;
+			 &lt;link rel="stylesheet" type="text/css" href="https://www.metal-archives.com/css/default/oldie.css" /&gt;
+		&lt;![endif]--&gt;
+&lt;script type="93e413bb7255b08547c0ece7-text/javascript"&gt;
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-4046749-4']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="wrapper"&gt;
+&lt;div id="header"&gt;
+&lt;a href="https://www.metal-archives.com/" id="MA_logo"&gt;Metal Archives&lt;/a&gt;
+&lt;div class="clear loading"&gt;&lt;img src="https://www.metal-archives.com/images/loading.gif" alt="loading" width="12" height="12" /&gt; loading...&lt;/div&gt;
+&lt;div id="search_box"&gt;
+&lt;form id="search_form" action="https://www.metal-archives.com/search" method="get"&gt;
+&lt;div&gt;
+&lt;label&gt;Search:&lt;/label&gt;&lt;br /&gt;
+&lt;input name="searchString" type="text" id="searchQueryBox" size="25" value="" tabindex="1" /&gt;
+&lt;select name="type" tabindex="2"&gt;
+&lt;option value="band_name"&gt;Band name&lt;/option&gt;
+&lt;option value="band_genre"&gt;Music genre&lt;/option&gt;
+&lt;option value="band_themes"&gt;Lyrical themes&lt;/option&gt;
+&lt;option value="album_title"&gt;Album title&lt;/option&gt;
+&lt;option value="song_title"&gt;Song title&lt;/option&gt;
+&lt;option value="label_name"&gt;Label&lt;/option&gt;
+&lt;option value="artist_alias"&gt;Artist&lt;/option&gt;
+&lt;option value="user_name"&gt;User profile&lt;/option&gt;
+&lt;option value="google"&gt;Google&lt;/option&gt;
+&lt;/select&gt;
+&lt;br /&gt;
+&lt;a href="https://www.metal-archives.com/search/advanced/?searchString=&amp;type=" class="float_left" tabindex="4"&gt;Advanced search&lt;/a&gt;
+&lt;button type="submit" class="btn_submit float_right" tabindex="3"&gt;Submit&lt;/button&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;div id="top_menu_box"&gt;
+&lt;ul class="menu_style_1"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/help"&gt;Help&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/rules"&gt;Rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/board/" target="_top"&gt;Forum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_2"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/faq"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/support"&gt;Support Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/tools"&gt;Add-ons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="left_col"&gt;
+&lt;div id="member_box"&gt;
+&lt;form name="login_form" id="login_form" action="https://www.metal-archives.com/authentication/login" method="post"&gt;
+&lt;div&gt;
+&lt;label&gt;Username&lt;/label&gt;&lt;br /&gt;
+&lt;input type="text" name="loginUsername" /&gt;
+&lt;label&gt;Password&lt;/label&gt;&lt;br /&gt;
+&lt;input type="password" name="loginPassword" /&gt;
+&lt;input type="hidden" name="origin" value="/bands/Black_Sabbath/99" /&gt;
+&lt;button type="submit" class="btn_login float_right"&gt;Login&lt;/button&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;a href="https://www.metal-archives.com/user/signup" class="float-left writeAction"&gt;Register&lt;/a&gt;
+&lt;span class="float_right"&gt;&lt;a href="https://www.metal-archives.com/user/forgot-password" class="float-left writeAction"&gt;Forgot login?&lt;/a&gt; &lt;/span&gt;
+&lt;div class="clear"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="left_menu_box"&gt;
+&lt;ul class="menu_style_3 block_spacer_20"&gt;
+&lt;li&gt;
+Bands
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/letter"&gt;alphabetical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/country"&gt;country&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/genre"&gt;genre&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Labels
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/label"&gt;alphabetical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/label/country"&gt;country&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/review/browse"&gt;Reviews&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_3 block_spacer_20"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/artist/rip"&gt;R.I.P.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/random"&gt;Random Band&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/user/list"&gt;User rankings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/news"&gt;News archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_3 ornement_30"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/report/list"&gt;Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/todo"&gt;Contribute / To do&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="left_text_box"&gt;
+&lt;p class="small_text center"&gt; &amp;copy; 2002-2019&lt;br /&gt;Encyclopaedia Metallum &lt;/p&gt;
+&lt;p class="small_text center"&gt;Best viewed&lt;br /&gt; &lt;a href="http://www.getfirefox.com" target="_blank"&gt;without&lt;/a&gt; Internet Explorer, &lt;br /&gt;in 1280 x 960 resolution&lt;br /&gt; or higher.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p class="small_text center"&gt;&lt;a href="https://www.metal-archives.com/content/pp"&gt;Privacy Policy&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="content_wrapper"&gt;
+&lt;script type="93e413bb7255b08547c0ece7-text/javascript" src="https://www.metal-archives.com/js/jquery/jquery.form.js"&gt;&lt;/script&gt;
+&lt;script type="93e413bb7255b08547c0ece7-text/javascript"&gt;
+	var bandId = 99;
+	var bandName = "Black Sabbath";
+	var minRecScore = 3;
+		
+		
+		
+	$(document).ready(function() {
+		$('.tabs, .tabs2lvl').tabs({ beforeLoad: cacheTab });
+		$(".no-js").removeClass("no-js");
+				 $('#band_members').tabs( { active : 1 } );		$(document).on('click', '.albumMenu', toggleAlbumMenu);
+				var browser = detectBrowser();
+		if(browser.name == "webkit" &amp;&amp; parseFloat(browser.version) &lt; 536) {
+			$('head').append( $('&lt;style type="text/css"&gt;.releaseCol { width: 26%; }&lt;/style&gt;'));
+		}
+	});
+
+&lt;/script&gt;
+&lt;div id="band_sidebar"&gt;
+&lt;div class="band_name_img"&gt;
+&lt;a class="image" id="logo" title="Black Sabbath" href="https://www.metal-archives.com/images/9/9/99_logo.jpg?0308"&gt;&lt;img src="https://www.metal-archives.com/images/9/9/99_logo.jpg?0308" title="Click to zoom" alt="Black Sabbath - Logo" border="0" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="band_img"&gt;
+&lt;a class="image" id="photo" title="Black Sabbath" href="https://www.metal-archives.com/images/9/9/99_photo.jpg?0308"&gt;&lt;img src="https://www.metal-archives.com/images/9/9/99_photo.jpg?0308" title="Click to zoom" alt="Black Sabbath - Photo" border="0" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div id="affiliation-links"&gt;
+&lt;span class="title"&gt;Buy their stuff&lt;/span&gt;
+&lt;br /&gt;
+&lt;ul id="buyLinks" class="menu_style_5"&gt;
+&lt;li&gt;
+&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=3&amp;bid=99"&gt;Search on eBay&lt;/a&gt;
+more... &lt;a href="#more" onclick="if (!window.__cfRLUnblockHandlers) return false; $('#sub3').toggle(); return false;" data-cf-modified-93e413bb7255b08547c0ece7-=""&gt;&gt;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;ul id="sub3" style="display: none; margin-top: 0px; margin-bottom: 0px;"&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=17&amp;bid=99"&gt;eBay Canada&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=19&amp;bid=99"&gt;eBay UK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=57&amp;bid=99"&gt;eBay Germany&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=18&amp;bid=99"&gt;eBay France&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=36&amp;bid=99"&gt;eBay Spain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=34&amp;bid=99"&gt;eBay Belgium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=20&amp;bid=99"&gt;eBay Netherlands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=21&amp;bid=99"&gt;eBay Italy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=22&amp;bid=99"&gt;eBay Australia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=2&amp;id=235&amp;bid=99"&gt;Search on Amazon.com
+&lt;/a&gt;
+more... &lt;a href="#more" onclick="if (!window.__cfRLUnblockHandlers) return false; $('#sub2').toggle(); return false;" data-cf-modified-93e413bb7255b08547c0ece7-=""&gt;&gt;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;ul id="sub2" style="display: none; margin-top: 0px; margin-bottom: 0px;"&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=13&amp;id=235&amp;bid=99"&gt;Amazon Canada &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=14&amp;id=235&amp;bid=99"&gt;Amazon France &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=15&amp;id=235&amp;bid=99"&gt;Amazon Germany &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=16&amp;id=235&amp;bid=99"&gt;Amazon UK &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=54&amp;id=424304&amp;bid=99"&gt;Buy from No Remorse&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="band_content"&gt;
+&lt;div class="tool_strip right writeAction"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a title="Report a mistake or additional information for this page" href="javascript:popupReportDialog(1, 99);" class="btn_report_error"&gt; &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="band_info"&gt;
+&lt;h1 class="band_name"&gt;&lt;a href="https://www.metal-archives.com/bands/Black_Sabbath/99"&gt;Black Sabbath&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="clear block_spacer_5"&gt;&lt;/div&gt;
+&lt;div id="band_stats"&gt;
+&lt;dl class="float_left"&gt;
+&lt;dt&gt;Country of origin:&lt;/dt&gt;
+&lt;dd&gt;&lt;a href="https://www.metal-archives.com/lists/GB"&gt;United Kingdom&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;Location:&lt;/dt&gt;
+&lt;dd&gt;Birmingham, England&lt;/dd&gt;
+&lt;dt&gt;Status:&lt;/dt&gt;
+&lt;dd class="split_up"&gt;Split-up&lt;/dd&gt;
+&lt;dt&gt;Formed in:&lt;/dt&gt;
+&lt;dd&gt;1969&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl class="float_right"&gt;
+&lt;dt&gt;Genre:&lt;/dt&gt;
+&lt;dd&gt;Heavy/Doom Metal&lt;/dd&gt;
+&lt;dt&gt;Lyrical themes:&lt;/dt&gt;
+&lt;dd&gt;Doom, Drugs, Life, Death, Religion&lt;/dd&gt;
+&lt;dt&gt;Last label:&lt;/dt&gt;
+&lt;dd&gt;&lt;a href="https://www.metal-archives.com/labels/Vertigo/28"&gt;Vertigo&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl style="width: 100%;" class="clear"&gt;
+&lt;dt&gt;Years active:&lt;/dt&gt;
+&lt;dd&gt;
+1968 (as &lt;strong&gt;Polka Tulk&lt;/strong&gt;),
+1968-1969 (as &lt;strong&gt;Earth&lt;/strong&gt;),
+1969-2006,
+2011-2017 &lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class="band_comment clear"&gt;
+
+Played their final show of their very last tour entitled "The End" in Birmingham, England on February 4th, 2017. The band initially retired from large scale touring after the show, but later announced that they broke up.&lt;br /&gt; &lt;br /&gt; Black Sabbath are generally considered both the first heavy metal and doom metal band. Originally they were called Polka Tulk (featuring a saxophonist and slide guitarist in ... 
+&lt;div class="tool_strip bottom right"&gt;&lt;a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; readMore('band/read-more/id/99'); return false;" class="btn_read_more" data-cf-modified-93e413bb7255b08547c0ece7-=""&gt;Read more&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="message"&gt; &lt;/div&gt;
+&lt;div class="clear block_spacer_5"&gt; &lt;/div&gt;
+&lt;div id="band_tabs" class="tabs no-js"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#band_tab_discography"&gt;Discography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#band_tab_members"&gt;Members&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/ajax-reviews/id/99" title="Reviews"&gt;&lt;span&gt;Reviews&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/ajax-recommendations/id/99" title="Similar artists"&gt;&lt;span&gt;Similar Artists&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/link/ajax-list/type/band/id/99" title="Related links"&gt;&lt;span&gt;Related Links&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id="band_tab_discography"&gt;
+&lt;div id="band_disco" class="tabs2lvl"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/discography/id/99/tab/all"&gt;&lt;span&gt;Complete discography&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/discography/id/99/tab/main"&gt;&lt;span&gt;Main&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/discography/id/99/tab/lives"&gt;&lt;span&gt;Lives&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/discography/id/99/tab/demos"&gt;&lt;span&gt;Demos&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/discography/id/99/tab/misc"&gt;&lt;span&gt;Misc.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="band_tab_members"&gt;
+&lt;div id="band_members" class="tabs2lvl"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#band_tab_members_all"&gt;Complete lineup&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#band_tab_members_current"&gt;Last known lineup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#band_tab_members_past"&gt;Past members&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#band_tab_members_live"&gt;Live musicians&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;
+
+&lt;div id="band_tab_members_all"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Last known &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Geezer_Butler/2225" class="bold"&gt;Geezer Butler&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1969-1979, 1980-1984, 1987, 1991-1994, 1997-2006, 2011-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Geezer/1668"&gt;Geezer&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Geezer_Butler_Band/3540324964"&gt;Geezer Butler Band&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, Deadland Ritual, ex-&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-Rare Breed, ex-The Ruums, ex-Audioslave (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tony_Iommi/2190" class="bold"&gt;Tony Iommi&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Guitars&amp;nbsp;(1969-2006, 2011-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Iommi/4915"&gt;Iommi&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/WhoCares/3540330157"&gt;WhoCares&lt;/a&gt;, ex-Belch, ex-Jethro Tull, ex-Mythology, ex-The Rest, ex-The Rockin' Chevrolets, ex-Velvett Fogg &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ozzy_Osbourne/2073" class="bold"&gt;Ozzy Osbourne&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1969-1977, 1978-1979, 1997-2006, 2011-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-Approach, ex-Music Machine, ex-Rare Breed &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Past &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bill_Ward/2239" class="bold"&gt;Bill Ward&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1969-1980, 1983, 1984, 1994, 1997-2006, 2011-2012) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Bill_Ward/28509"&gt;Bill Ward&lt;/a&gt;, Day of Errors, ex-&lt;a href="https://www.metal-archives.com/bands/The_Mezmerist/83930"&gt;The Mezmerist&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Max_Havoc/3087"&gt;Max Havoc&lt;/a&gt;, ex-Blue Thunder, ex-Mythology, ex-The Rest &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Dave_Walker/11093" class="bold"&gt;Dave Walker&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1977-1978) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+Dave Walker Band, ex-Fleetwood Mac, ex-Humble Pie, ex-Hungry Fighter, ex-Mistress, ex-Raven, ex-Savoy Brown, ex-The Idle Race, ex-The Redcaps &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Geoff_Nicholls/8476" class="bold"&gt;Geoff Nicholls&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1979, 1987), Keyboards, Vocals (backing), Guitars (rhythm) (live)&amp;nbsp;(1979-2004) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 2017) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Quartz/1687"&gt;Quartz&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Tony_Martin/60012"&gt;Tony Martin&lt;/a&gt;, ex-Johnny Neal and the Starliners, ex-The Boll Weevils, ex-The Seed, ex-World of Oz &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ronnie_James_Dio/4282" class="bold"&gt;Ronnie James Dio&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1979-1982, 1991-1992) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 2010) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Dio/163"&gt;Dio&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Hear_%27n_Aid/43588"&gt;Hear 'n Aid&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Deep_Purple/1178"&gt;Deep Purple&lt;/a&gt; (live), ex-Elf, ex-Ronnie and the Redcaps, ex-Ronnie and the Rumblers, ex-Ronnie Dio and the Prophets, ex-The Electric Elves, ex-The Elves, ex-The Vegas Kings &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Craig_Gruber/12616" class="bold"&gt;Craig Gruber&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1980) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 2015) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Raven_Lord/3540359198"&gt;Raven Lord&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/The_Rods/1683"&gt;The Rods&lt;/a&gt;, ex-Bible Black, ex-ED3N, ex-Elf, ex-Zvekan, ex-Gary Moore (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Vinny_Appice/7326" class="bold"&gt;Vinny Appice&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1980-1982, 1991-1992) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Dunsmuir/3540414947"&gt;Dunsmuir&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Last_in_Line/3540406638"&gt;Last in Line&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Martiria/19082"&gt;Martiria&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Resurrection_Kings/3540406416"&gt;Resurrection Kings&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Serpent%27s_Ride/3540409705"&gt;Serpent's Ride&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Hear_%27n_Aid/43588"&gt;Hear 'n Aid&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, Appice, ex-&lt;a href="https://www.metal-archives.com/bands/Kill_Devil_Hill/3540343538"&gt;Kill Devil Hill&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Minoru_Niihara/57564"&gt;Minoru Niihara&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Power_Project/91186"&gt;Power Project&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/WWIII/5965"&gt;WWIII&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Dio/163"&gt;Dio&lt;/a&gt;, ex-3 Legged Dogg, ex-9 Chambers, ex-Axis, ex-Circle of Tyrants, ex-Lynch Mob, ex-Dio Disciples (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bev_Bevan/14004" class="bold"&gt;Bev Bevan&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1983-1984, 1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+Belch, Bev Bevan's Move, ex-Carl Wayne and The Viking, ex-Denny Laine and the Diplomats, ex-Electric Light Orchestra, ex-ELO Part II, ex-The Bev Bevan Band, ex-The Move &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ian_Gillan/8247" class="bold"&gt;Ian Gillan&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1983-1984) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Deep_Purple/1178"&gt;Deep Purple&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/WhoCares/3540330157"&gt;WhoCares&lt;/a&gt;, Ian Gillan, ex-Episode Six, ex-Garth Rockett and the Moonshiners, ex-Gillan, ex-Gillan &amp; Glover, ex-Ian Gillan Band, ex-The Javelins &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Jeff_Fenholt/56822" class="bold"&gt;Jeff Fenholt&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1984-1985) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 2019) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Joshua_Perahia/3326"&gt;Joshua Perahia&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Geezer_Butler_Band/3540324964"&gt;Geezer Butler Band&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/M.A.R.S./1630"&gt;M.A.R.S.&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, ex-Bible Black, ex-ED3N &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Dave_Donato/11098" class="bold"&gt;Dave Donato&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1984) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Geezer_Butler_Band/3540324964"&gt;Geezer Butler Band&lt;/a&gt;, ex-White Tiger &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Gordon_Copley/13965" class="bold"&gt;Gordon Copley&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1985) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-Lita Ford &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Dave_Spitz/13970" class="bold"&gt;Dave Spitz&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1985-1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Impellitteri/320"&gt;Impellitteri&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Nuclear_Assault/121"&gt;Nuclear Assault&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Stream/72402"&gt;Stream&lt;/a&gt;, ex-Americade, ex-Great White, ex-White Lion &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+ &lt;a href="https://www.metal-archives.com/artists/Eric_Singer/6875" class="bold"&gt;Eric Singer&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1985-1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Stream/72402"&gt;Stream&lt;/a&gt;, E.S.P. (Eric Singer Project), Kiss, Soul Station, ex-&lt;a href="https://www.metal-archives.com/bands/Avantasia/331"&gt;Avantasia&lt;/a&gt;, ex-Alice Cooper, ex-Badlands, ex-GlamNation, ex-Shameless, ex-Brian May (live), ex-Gary Moore (live), ex-Lita Ford (live), ex-Paul Stanley (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Glenn_Hughes/8956" class="bold"&gt;Glenn Hughes&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1985-1986) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Voodoo_Hill/89856"&gt;Voodoo Hill&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Iommi/4915"&gt;Iommi&lt;/a&gt;, Black Country Communion, Glenn Hughes, The Dead Daisies, ex-&lt;a href="https://www.metal-archives.com/bands/Deep_Purple/1178"&gt;Deep Purple&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt; (live), ex-Brazen Abbot, ex-California Breed, ex-Finders Keepers, ex-Gary Moore, ex-Hughes Turner Project, ex-Hughes/Thrall, ex-Kings of Chaos, ex-L.A. Blues Authority, ex-Michael Men Project, ex-Nikolo Kotzev's Nostradamus, ex-Trapeze, ex-Hank Davison (live), ex-Ken Hensley (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bob_Daisley/8473" class="bold"&gt;Bob Daisley&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1986) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Planet_Alliance/81563"&gt;Planet Alliance&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Stream/72402"&gt;Stream&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Yngwie_J._Malmsteen/84"&gt;Yngwie J. Malmsteen&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Dio/163"&gt;Dio&lt;/a&gt; (live), ex-Broken Glass, ex-Chicken Shack, ex-Gary Moore, ex-Kahvas Jute, ex-Living Loud, ex-Mecca, ex-Mungo Jerry, ex-Stan Webb Band, ex-Uriah Heep, ex-Widowmaker &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ray_Gillen/8373" class="bold"&gt;Ray Gillen&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1986-1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 1993) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Sun_Red_Sun/11573"&gt;Sun Red Sun&lt;/a&gt;, ex-Badlands, ex-Blue Murder &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Jo_Burt/13977" class="bold"&gt;Jo Burt&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+The Jo Burt Experience, ex-Andy Scott's Sweet, ex-Sector 27, ex-Virginia Wolf &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tony_Martin/8466" class="bold"&gt;Tony Martin&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1987-1991, 1992-1997) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Giuntini_Project/54877"&gt;Giuntini Project&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/The_Cage/25466"&gt;The Cage&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Tony_Martin/60012"&gt;Tony Martin&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, Silver Horses, ex-&lt;a href="https://www.metal-archives.com/bands/Candlemass/34"&gt;Candlemass&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Empire/6518"&gt;Empire&lt;/a&gt;, ex-Bailey's Comet, ex-Blue Murder, ex-Cozy Powell's Hammer, ex-M3, ex-The Alliance, ex-The Bailey Brothers &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Cozy_Powell/13922" class="bold"&gt;Cozy Powell&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1988-1991, 1994-1995) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 1998) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Tony_Martin/60012"&gt;Tony Martin&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Yngwie_J._Malmsteen/84"&gt;Yngwie J. Malmsteen&lt;/a&gt;, ex-Bedlam, ex-Big Bertha, ex-Brian May, ex-Cozy Powell, ex-Cozy Powell's Hammer, ex-Emerson, Lake &amp; Powell, ex-Forcefield, ex-Graham Bonnet &amp; The Hooligans, ex-Jeff Beck's Group, ex-Michael Schenker Group, ex-Pete York / Cozy Powell, ex-Peter Green Splinter Group, ex-Phenomena, ex-The Ace Kefford Stand, ex-The Snakes, ex-The Sorcerers, ex-Tipton, Entwistle and Powell, ex-Whitesnake, ex-Youngblood &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Neil_Murray/13994" class="bold"&gt;Neil Murray&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1989-1990, 1994-1996) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Empire/6518"&gt;Empire&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Gogmagog/3092"&gt;Gogmagog&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, Michael Schenker Group, Snakecharmer, The Fluffy Jackets’, ex-&lt;a href="https://www.metal-archives.com/bands/Bow_Wow/22937"&gt;Bow Wow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Tony_Martin/60012"&gt;Tony Martin&lt;/a&gt;, ex-Badlands, ex-Brian May, ex-Colosseum II, ex-Company of Snakes, ex-Cozy Powell's Hammer, ex-Driveshaft, ex-Fastway, ex-Gary Moore, ex-Gilgamesh, ex-Graham Bonnet, ex-M3, ex-National Health, ex-Phenomena, ex-The Brian May Band, ex-Whitesnake, ex-Queen + Paul Rodgers (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bobby_Rondinelli/14030" class="bold"&gt;Bobby Rondinelli&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1993-1994, 1995) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Axel_Rudi_Pell/1746"&gt;Axel Rudi Pell&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Warlock/686"&gt;Warlock&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Sun_Red_Sun/11573"&gt;Sun Red Sun&lt;/a&gt;, Over the Rainbow, The Lizards, ex-&lt;a href="https://www.metal-archives.com/bands/Doro/4220"&gt;Doro&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Quiet_Riot/1709"&gt;Quiet Riot&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Riot_V/1191"&gt;Riot V&lt;/a&gt;, ex-Blue Öyster Cult, ex-Aerosmith (live), ex-Bonnie Tyler (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Past (Live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Gerald_%22Jezz%22_Woodruffe/44144" class="bold"&gt;Gerald &amp;quot;Jezz&amp;quot; Woodruffe&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Keyboards&amp;nbsp;(1975-1977) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Geezer_Butler_Band/3540324964"&gt;Geezer Butler Band&lt;/a&gt;, ex-Robert Plant &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Terry_Chimes/14020" class="bold"&gt;Terry Chimes&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1987-1988) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-Cowboys International, ex-Generation X, ex-Hanoi Rocks, ex-Johnny Thunders and the Heartbreakers, ex-The Cherry Bombz, ex-The Clash &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Rob_Halford/3535" class="bold"&gt;Rob Halford&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1992, 2004) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Halford/98"&gt;Halford&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Judas_Priest/97"&gt;Judas Priest&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Fight/425"&gt;Fight&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Hear_%27n_Aid/43588"&gt;Hear 'n Aid&lt;/a&gt;, ex-2wo, ex-Abraxas, ex-Athens Wood, ex-Hiroshima, ex-Lord Lucifer, ex-Thark &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Mike_Bordin/5893" class="bold"&gt;Mike Bordin&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1997) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Faith_No_More/983"&gt;Faith No More&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Black_Label_Society/245"&gt;Black Label Society&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Jerry_Cantrell/4079"&gt;Jerry Cantrell&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-EZ-Street, ex-Pop-O-Pies, ex-The Chickenfuckers, ex-KoЯn (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Shannon_Larkin/44152" class="bold"&gt;Shannon Larkin&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1997) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Wrathchild_America/308"&gt;Wrathchild America&lt;/a&gt;, Another Animal, Blue Cross Band, Godsmack, Ugly Kid Joe, ex-&lt;a href="https://www.metal-archives.com/bands/Fear_of_God/1663"&gt;Fear of God&lt;/a&gt; (live), ex-&lt;a href="https://www.metal-archives.com/bands/Souls_at_Zero/59476"&gt;Souls at Zero&lt;/a&gt;, ex-Amen, ex-Candlebox, ex-Kiddie Porn, ex-M.F. Pitbulls, ex-Snot &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Vinny_Appice/7326" class="bold"&gt;Vinny Appice&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1998) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Dunsmuir/3540414947"&gt;Dunsmuir&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Last_in_Line/3540406638"&gt;Last in Line&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Martiria/19082"&gt;Martiria&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Resurrection_Kings/3540406416"&gt;Resurrection Kings&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Serpent%27s_Ride/3540409705"&gt;Serpent's Ride&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Hear_%27n_Aid/43588"&gt;Hear 'n Aid&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, Appice, ex-&lt;a href="https://www.metal-archives.com/bands/Kill_Devil_Hill/3540343538"&gt;Kill Devil Hill&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Minoru_Niihara/57564"&gt;Minoru Niihara&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Power_Project/91186"&gt;Power Project&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/WWIII/5965"&gt;WWIII&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Dio/163"&gt;Dio&lt;/a&gt;, ex-3 Legged Dogg, ex-9 Chambers, ex-Axis, ex-Circle of Tyrants, ex-Lynch Mob, ex-Dio Disciples (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Adam_Wakeman/15056" class="bold"&gt;Adam Wakeman&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Keyboards, Guitars (rhythm)&amp;nbsp;(2004-2006, 2011-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Headspace/3540346184"&gt;Headspace&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, Adam Wakeman, Rick &amp; Adam Wakeman, Snakecharmer, ex-Travis (live), ex-Will Young (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tommy_Clufetos/15053" class="bold"&gt;Tommy Clufetos&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(2012-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-Alice Cooper, ex-John 5, ex-Lesley Roy, ex-Rob Zombie, ex-Ted Nugent, ex-Mitch Ryder &amp; the Detroit Wheels (live), ex-The Dead Daisies (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="band_tab_members_current"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Geezer_Butler/2225" class="bold"&gt;Geezer Butler&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1969-1979, 1980-1984, 1987, 1991-1994, 1997-2006, 2011-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Geezer/1668"&gt;Geezer&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Geezer_Butler_Band/3540324964"&gt;Geezer Butler Band&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, Deadland Ritual, ex-&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-Rare Breed, ex-The Ruums, ex-Audioslave (live) &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tony_Iommi/2190" class="bold"&gt;Tony Iommi&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Guitars&amp;nbsp;(1969-2006, 2011-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Iommi/4915"&gt;Iommi&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/WhoCares/3540330157"&gt;WhoCares&lt;/a&gt;, ex-Belch, ex-Jethro Tull, ex-Mythology, ex-The Rest, ex-The Rockin' Chevrolets, ex-Velvett Fogg &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ozzy_Osbourne/2073" class="bold"&gt;Ozzy Osbourne&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1969-1977, 1978-1979, 1997-2006, 2011-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-Approach, ex-Music Machine, ex-Rare Breed &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="band_tab_members_past"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bill_Ward/2239" class="bold"&gt;Bill Ward&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1969-1980, 1983, 1984, 1994, 1997-2006, 2011-2012) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Bill_Ward/28509"&gt;Bill Ward&lt;/a&gt;, Day of Errors, ex-&lt;a href="https://www.metal-archives.com/bands/The_Mezmerist/83930"&gt;The Mezmerist&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Max_Havoc/3087"&gt;Max Havoc&lt;/a&gt;, ex-Blue Thunder, ex-Mythology, ex-The Rest &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Dave_Walker/11093" class="bold"&gt;Dave Walker&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1977-1978) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+Dave Walker Band, ex-Fleetwood Mac, ex-Humble Pie, ex-Hungry Fighter, ex-Mistress, ex-Raven, ex-Savoy Brown, ex-The Idle Race, ex-The Redcaps &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Geoff_Nicholls/8476" class="bold"&gt;Geoff Nicholls&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1979, 1987), Keyboards, Vocals (backing), Guitars (rhythm) (live)&amp;nbsp;(1979-2004) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 2017) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Quartz/1687"&gt;Quartz&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Tony_Martin/60012"&gt;Tony Martin&lt;/a&gt;, ex-Johnny Neal and the Starliners, ex-The Boll Weevils, ex-The Seed, ex-World of Oz &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ronnie_James_Dio/4282" class="bold"&gt;Ronnie James Dio&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1979-1982, 1991-1992) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 2010) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Dio/163"&gt;Dio&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Hear_%27n_Aid/43588"&gt;Hear 'n Aid&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Deep_Purple/1178"&gt;Deep Purple&lt;/a&gt; (live), ex-Elf, ex-Ronnie and the Redcaps, ex-Ronnie and the Rumblers, ex-Ronnie Dio and the Prophets, ex-The Electric Elves, ex-The Elves, ex-The Vegas Kings &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Craig_Gruber/12616" class="bold"&gt;Craig Gruber&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1980) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 2015) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Raven_Lord/3540359198"&gt;Raven Lord&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/The_Rods/1683"&gt;The Rods&lt;/a&gt;, ex-Bible Black, ex-ED3N, ex-Elf, ex-Zvekan, ex-Gary Moore (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Vinny_Appice/7326" class="bold"&gt;Vinny Appice&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1980-1982, 1991-1992) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Dunsmuir/3540414947"&gt;Dunsmuir&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Last_in_Line/3540406638"&gt;Last in Line&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Martiria/19082"&gt;Martiria&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Resurrection_Kings/3540406416"&gt;Resurrection Kings&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Serpent%27s_Ride/3540409705"&gt;Serpent's Ride&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Hear_%27n_Aid/43588"&gt;Hear 'n Aid&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, Appice, ex-&lt;a href="https://www.metal-archives.com/bands/Kill_Devil_Hill/3540343538"&gt;Kill Devil Hill&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Minoru_Niihara/57564"&gt;Minoru Niihara&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Power_Project/91186"&gt;Power Project&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/WWIII/5965"&gt;WWIII&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Dio/163"&gt;Dio&lt;/a&gt;, ex-3 Legged Dogg, ex-9 Chambers, ex-Axis, ex-Circle of Tyrants, ex-Lynch Mob, ex-Dio Disciples (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bev_Bevan/14004" class="bold"&gt;Bev Bevan&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1983-1984, 1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+Belch, Bev Bevan's Move, ex-Carl Wayne and The Viking, ex-Denny Laine and the Diplomats, ex-Electric Light Orchestra, ex-ELO Part II, ex-The Bev Bevan Band, ex-The Move &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ian_Gillan/8247" class="bold"&gt;Ian Gillan&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1983-1984) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Deep_Purple/1178"&gt;Deep Purple&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/WhoCares/3540330157"&gt;WhoCares&lt;/a&gt;, Ian Gillan, ex-Episode Six, ex-Garth Rockett and the Moonshiners, ex-Gillan, ex-Gillan &amp; Glover, ex-Ian Gillan Band, ex-The Javelins &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Jeff_Fenholt/56822" class="bold"&gt;Jeff Fenholt&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1984-1985) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 2019) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Joshua_Perahia/3326"&gt;Joshua Perahia&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Geezer_Butler_Band/3540324964"&gt;Geezer Butler Band&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/M.A.R.S./1630"&gt;M.A.R.S.&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, ex-Bible Black, ex-ED3N &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Dave_Donato/11098" class="bold"&gt;Dave Donato&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1984) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Geezer_Butler_Band/3540324964"&gt;Geezer Butler Band&lt;/a&gt;, ex-White Tiger &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Gordon_Copley/13965" class="bold"&gt;Gordon Copley&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1985) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-Lita Ford &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Dave_Spitz/13970" class="bold"&gt;Dave Spitz&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1985-1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Impellitteri/320"&gt;Impellitteri&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Nuclear_Assault/121"&gt;Nuclear Assault&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Stream/72402"&gt;Stream&lt;/a&gt;, ex-Americade, ex-Great White, ex-White Lion &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Eric_Singer/6875" class="bold"&gt;Eric Singer&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1985-1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Stream/72402"&gt;Stream&lt;/a&gt;, E.S.P. (Eric Singer Project), Kiss, Soul Station, ex-&lt;a href="https://www.metal-archives.com/bands/Avantasia/331"&gt;Avantasia&lt;/a&gt;, ex-Alice Cooper, ex-Badlands, ex-GlamNation, ex-Shameless, ex-Brian May (live), ex-Gary Moore (live), ex-Lita Ford (live), ex-Paul Stanley (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Glenn_Hughes/8956" class="bold"&gt;Glenn Hughes&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1985-1986) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Voodoo_Hill/89856"&gt;Voodoo Hill&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Iommi/4915"&gt;Iommi&lt;/a&gt;, Black Country Communion, Glenn Hughes, The Dead Daisies, ex-&lt;a href="https://www.metal-archives.com/bands/Deep_Purple/1178"&gt;Deep Purple&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt; (live), ex-Brazen Abbot, ex-California Breed, ex-Finders Keepers, ex-Gary Moore, ex-Hughes Turner Project, ex-Hughes/Thrall, ex-Kings of Chaos, ex-L.A. Blues Authority, ex-Michael Men Project, ex-Nikolo Kotzev's Nostradamus, ex-Trapeze, ex-Hank Davison (live), ex-Ken Hensley (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bob_Daisley/8473" class="bold"&gt;Bob Daisley&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1986) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Planet_Alliance/81563"&gt;Planet Alliance&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Stream/72402"&gt;Stream&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Yngwie_J._Malmsteen/84"&gt;Yngwie J. Malmsteen&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Dio/163"&gt;Dio&lt;/a&gt; (live), ex-Broken Glass, ex-Chicken Shack, ex-Gary Moore, ex-Kahvas Jute, ex-Living Loud, ex-Mecca, ex-Mungo Jerry, ex-Stan Webb Band, ex-Uriah Heep, ex-Widowmaker &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ray_Gillen/8373" class="bold"&gt;Ray Gillen&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1986-1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 1993) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Sun_Red_Sun/11573"&gt;Sun Red Sun&lt;/a&gt;, ex-Badlands, ex-Blue Murder &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Jo_Burt/13977" class="bold"&gt;Jo Burt&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1987) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+The Jo Burt Experience, ex-Andy Scott's Sweet, ex-Sector 27, ex-Virginia Wolf &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tony_Martin/8466" class="bold"&gt;Tony Martin&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1987-1991, 1992-1997) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Giuntini_Project/54877"&gt;Giuntini Project&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/The_Cage/25466"&gt;The Cage&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Tony_Martin/60012"&gt;Tony Martin&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, Silver Horses, ex-&lt;a href="https://www.metal-archives.com/bands/Candlemass/34"&gt;Candlemass&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Empire/6518"&gt;Empire&lt;/a&gt;, ex-Bailey's Comet, ex-Blue Murder, ex-Cozy Powell's Hammer, ex-M3, ex-The Alliance, ex-The Bailey Brothers &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Cozy_Powell/13922" class="bold"&gt;Cozy Powell&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1988-1991, 1994-1995) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+(R.I.P. 1998) See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Tony_Martin/60012"&gt;Tony Martin&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Yngwie_J._Malmsteen/84"&gt;Yngwie J. Malmsteen&lt;/a&gt;, ex-Bedlam, ex-Big Bertha, ex-Brian May, ex-Cozy Powell, ex-Cozy Powell's Hammer, ex-Emerson, Lake &amp; Powell, ex-Forcefield, ex-Graham Bonnet &amp; The Hooligans, ex-Jeff Beck's Group, ex-Michael Schenker Group, ex-Pete York / Cozy Powell, ex-Peter Green Splinter Group, ex-Phenomena, ex-The Ace Kefford Stand, ex-The Snakes, ex-The Sorcerers, ex-Tipton, Entwistle and Powell, ex-Whitesnake, ex-Youngblood &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Neil_Murray/13994" class="bold"&gt;Neil Murray&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass&amp;nbsp;(1989-1990, 1994-1996) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Empire/6518"&gt;Empire&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Gogmagog/3092"&gt;Gogmagog&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, Michael Schenker Group, Snakecharmer, The Fluffy Jackets’, ex-&lt;a href="https://www.metal-archives.com/bands/Bow_Wow/22937"&gt;Bow Wow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Tony_Martin/60012"&gt;Tony Martin&lt;/a&gt;, ex-Badlands, ex-Brian May, ex-Colosseum II, ex-Company of Snakes, ex-Cozy Powell's Hammer, ex-Driveshaft, ex-Fastway, ex-Gary Moore, ex-Gilgamesh, ex-Graham Bonnet, ex-M3, ex-National Health, ex-Phenomena, ex-The Brian May Band, ex-Whitesnake, ex-Queen + Paul Rodgers (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bobby_Rondinelli/14030" class="bold"&gt;Bobby Rondinelli&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1993-1994, 1995) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Axel_Rudi_Pell/1746"&gt;Axel Rudi Pell&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Warlock/686"&gt;Warlock&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rondinelli/17064"&gt;Rondinelli&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Sun_Red_Sun/11573"&gt;Sun Red Sun&lt;/a&gt;, Over the Rainbow, The Lizards, ex-&lt;a href="https://www.metal-archives.com/bands/Doro/4220"&gt;Doro&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Quiet_Riot/1709"&gt;Quiet Riot&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Rainbow/108"&gt;Rainbow&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Riot_V/1191"&gt;Riot V&lt;/a&gt;, ex-Blue Öyster Cult, ex-Aerosmith (live), ex-Bonnie Tyler (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="band_tab_members_live"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Past &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Gerald_%22Jezz%22_Woodruffe/44144" class="bold"&gt;Gerald &amp;quot;Jezz&amp;quot; Woodruffe&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Keyboards&amp;nbsp;(1975-1977) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-&lt;a href="https://www.metal-archives.com/bands/Geezer_Butler_Band/3540324964"&gt;Geezer Butler Band&lt;/a&gt;, ex-Robert Plant &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Terry_Chimes/14020" class="bold"&gt;Terry Chimes&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1987-1988) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+ex-Cowboys International, ex-Generation X, ex-Hanoi Rocks, ex-Johnny Thunders and the Heartbreakers, ex-The Cherry Bombz, ex-The Clash &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Rob_Halford/3535" class="bold"&gt;Rob Halford&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals&amp;nbsp;(1992, 2004) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Halford/98"&gt;Halford&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Judas_Priest/97"&gt;Judas Priest&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Fight/425"&gt;Fight&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Hear_%27n_Aid/43588"&gt;Hear 'n Aid&lt;/a&gt;, ex-2wo, ex-Abraxas, ex-Athens Wood, ex-Hiroshima, ex-Lord Lucifer, ex-Thark &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Mike_Bordin/5893" class="bold"&gt;Mike Bordin&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1997) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Faith_No_More/983"&gt;Faith No More&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Black_Label_Society/245"&gt;Black Label Society&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Jerry_Cantrell/4079"&gt;Jerry Cantrell&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-EZ-Street, ex-Pop-O-Pies, ex-The Chickenfuckers, ex-KoЯn (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Shannon_Larkin/44152" class="bold"&gt;Shannon Larkin&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1997) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Wrathchild_America/308"&gt;Wrathchild America&lt;/a&gt;, Another Animal, Blue Cross Band, Godsmack, Ugly Kid Joe, ex-&lt;a href="https://www.metal-archives.com/bands/Fear_of_God/1663"&gt;Fear of God&lt;/a&gt; (live), ex-&lt;a href="https://www.metal-archives.com/bands/Souls_at_Zero/59476"&gt;Souls at Zero&lt;/a&gt;, ex-Amen, ex-Candlebox, ex-Kiddie Porn, ex-M.F. Pitbulls, ex-Snot &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Vinny_Appice/7326" class="bold"&gt;Vinny Appice&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(1998) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Dunsmuir/3540414947"&gt;Dunsmuir&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Last_in_Line/3540406638"&gt;Last in Line&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Martiria/19082"&gt;Martiria&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Resurrection_Kings/3540406416"&gt;Resurrection Kings&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Serpent%27s_Ride/3540409705"&gt;Serpent's Ride&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Hear_%27n_Aid/43588"&gt;Hear 'n Aid&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Heaven_%26_Hell/99536"&gt;Heaven &amp; Hell&lt;/a&gt;, Appice, ex-&lt;a href="https://www.metal-archives.com/bands/Kill_Devil_Hill/3540343538"&gt;Kill Devil Hill&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Minoru_Niihara/57564"&gt;Minoru Niihara&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Power_Project/91186"&gt;Power Project&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/WWIII/5965"&gt;WWIII&lt;/a&gt;, ex-&lt;a href="https://www.metal-archives.com/bands/Dio/163"&gt;Dio&lt;/a&gt;, ex-3 Legged Dogg, ex-9 Chambers, ex-Axis, ex-Circle of Tyrants, ex-Lynch Mob, ex-Dio Disciples (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Adam_Wakeman/15056" class="bold"&gt;Adam Wakeman&lt;/a&gt;
+ &lt;/td&gt;
+&lt;td&gt;
+Keyboards, Guitars (rhythm)&amp;nbsp;(2004-2006, 2011-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Headspace/3540346184"&gt;Headspace&lt;/a&gt;, &lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, Adam Wakeman, Rick &amp; Adam Wakeman, Snakecharmer, ex-Travis (live), ex-Will Young (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="200" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tommy_Clufetos/15053" class="bold"&gt;Tommy Clufetos&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums&amp;nbsp;(2012-2017) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupBandsRow"&gt;
+&lt;td colspan="2"&gt;
+See also:
+&lt;a href="https://www.metal-archives.com/bands/Ozzy_Osbourne/195"&gt;Ozzy Osbourne&lt;/a&gt;, ex-Alice Cooper, ex-John 5, ex-Lesley Roy, ex-Rob Zombie, ex-Ted Nugent, ex-Mitch Ryder &amp; the Detroit Wheels (live), ex-The Dead Daisies (live) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="auditTrail"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;Added by: &lt;a href="https://www.metal-archives.com/users/Morrigan" class="profileMenu"&gt;Morrigan&lt;/a&gt;&lt;/td&gt;
+&lt;td align="right"&gt;Modified by: &lt;a href="https://www.metal-archives.com/users/deathmetal69_" class="profileMenu"&gt;deathmetal69_&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Added on: 2002-07-17 02:35:24&lt;/td&gt;
+&lt;td align="right"&gt;Last modified on: 2019-10-16 12:35:44&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&amp;nbsp;
+&lt;/td&gt;
+&lt;td align="right" valign="top"&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="readMoreDialog" title="Additional notes" class="displayNone"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="93e413bb7255b08547c0ece7-|49" defer=""&gt;&lt;/script&gt;&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>

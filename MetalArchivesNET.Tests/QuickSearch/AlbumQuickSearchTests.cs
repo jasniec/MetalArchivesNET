@@ -1,4 +1,4 @@
-﻿using MetalArchivesNET.Models.SearchResults;
+﻿using MetalArchivesNET.Models.Results.SearchResults;
 using MetalArchivesNET.Parsers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
@@ -23,7 +23,7 @@ namespace MetalArchivesNET.Tests.QuickSearch
         public void DateCheck()
         {
             List<SimpleAlbumSearchResult> results = GetResults();
-            ICollection dates = results.Select(r => r.Date).ToList();
+            ICollection dates = results.Select(r => r.AlbumReleaseDate).ToList();
             ICollection expectedDates = new List<DateTime>
             {
                 new DateTime(2002, 08, 13),
@@ -61,7 +61,7 @@ namespace MetalArchivesNET.Tests.QuickSearch
         public void UrlCheck()
         {
             List<SimpleAlbumSearchResult> results = GetResults();
-            ICollection urls = results.Select(r => r.Url).ToList();
+            ICollection urls = results.Select(r => r.AlbumUrl).ToList();
             ICollection expectedUrls = new List<string>
             {
                 @"https://www.metal-archives.com/albums/Agalloch/The_Mantle/3526",

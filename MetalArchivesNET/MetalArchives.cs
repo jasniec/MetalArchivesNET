@@ -1,4 +1,4 @@
-﻿using MetalArchivesNET.Models.SearchResults;
+﻿using MetalArchivesNET.Models.Results.SearchResults;
 using MetalArchivesNET.Searchers;
 using MetalArchivesNET.Searchers.Configurators;
 

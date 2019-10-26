@@ -5,7 +5,7 @@ namespace MetalArchivesNET
     /// <summary>
     /// Countries available in metal archives
     /// </summary>
-    public enum Country
+    public enum Country : short
     {
         [Description("Afghanistan")]
         [DefaultValue("AF")]
