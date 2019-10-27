@@ -14,22 +14,27 @@ namespace MetalArchivesNET.Models.Results.SearchResults
     /// <summary>
     /// Representation of song result
     /// </summary>
-    public class SimpleSongSearchResult : BandResultBase
+    public class SimpleSongSearchResult : BandAlbumResultBase
     {
         [Column(3)]
         public string SongTitle { get; set; }
+
         [Column(1)]
         [RegexConverter(@"<a.*?>(.+?)</a>")]
         public string AlbumName { get; set; }
+
         [Column(1)]
         [RegexConverter("<a href=\"(.*?)\".*>")]
-        public string AlbumUrl { get; set; }
+        public override string AlbumUrl { get; set; }
+
         [Column(2)]
         [EnumConverter(typeof(AlbumType))]
         public AlbumType AlbumType { get; set; }
+
         [Column(0)]
         [RegexConverter(@"<a.*?>(.+?)</a>")]
         public string BandName { get; set; }
+
         [Column(0)]
         [RegexConverter("<a href=\"(.*?)\".*>")]
         public override string BandUrl { get; set; }

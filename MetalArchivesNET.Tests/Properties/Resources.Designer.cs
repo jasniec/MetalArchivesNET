@@ -64,6 +64,20 @@ namespace MetalArchivesNET.Tests.Properties {
         ///   Looks up a localized string similar to &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
         ///&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
         ///&lt;head&gt;
+        ///&lt;title&gt;Belzebubs - Pantheon of the Nightside Gods - Encyclopaedia Metallum: The Metal Archives&lt;/title&gt;
+        ///&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+        ///&lt;script type=&quot;text/javascript&quot; nonce=&quot;2f7c9ee359a7400f87d2f3250de&quot; src=&quot;//local.adguard.org?ts=1572211891872&amp;amp;type=content-script&amp;amp;dmn=www.metal-archives.com&amp;amp;css=1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Album_Belzebubs {
+            get {
+                return ResourceManager.GetString("Album_Belzebubs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+        ///&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+        ///&lt;head&gt;
         ///&lt;title&gt;Black Sabbath - Encyclopaedia Metallum: The Metal Archives&lt;/title&gt;
         ///&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
         ///&lt;script type=&quot;text/javascript&quot; nonce=&quot;2f7c9ee359a7400f87d2f3250de&quot; src=&quot;//local.adguard.org?ts=1572091861100&amp;amp;type=content-script&amp;amp;dmn=www.metal-archives.com&amp;amp;css=1&amp;amp;js=1&amp;amp;gcss=1&amp;amp;rel= [rest of string was truncated]&quot;;.

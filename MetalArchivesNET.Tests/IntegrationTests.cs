@@ -1,4 +1,5 @@
-﻿using MetalArchivesNET.Models.Results.SearchResults;
+﻿using MetalArchivesNET.Models.Results.FullResults;
+using MetalArchivesNET.Models.Results.SearchResults;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,8 +37,18 @@ namespace MetalArchivesNET.Tests
         public void GetBand()
         {
             IEnumerable<SimpleSongSearchResult> results = MetalArchives.Song.ByName("beneath the trees");
+            BandResult band = results.First().GetBand();
 
-            Assert.AreNotEqual(null, results);
+            Assert.AreNotEqual(null, band);
+        }
+
+        [TestMethod]
+        public void GetAlbum()
+        {
+            IEnumerable<SimpleSongSearchResult> results = MetalArchives.Song.ByName("beneath the trees");
+            AlbumResult album = results.First().GetAlbum();
+
+            Assert.AreNotEqual(null, album);
         }
 
     }

@@ -117,6 +117,649 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Album_Belzebubs" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;title&gt;Belzebubs - Pantheon of the Nightside Gods - Encyclopaedia Metallum: The Metal Archives&lt;/title&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+&lt;script type="text/javascript" nonce="2f7c9ee359a7400f87d2f3250de" src="//local.adguard.org?ts=1572211891872&amp;amp;type=content-script&amp;amp;dmn=www.metal-archives.com&amp;amp;css=1&amp;amp;js=1&amp;amp;gcss=1&amp;amp;rel=1&amp;amp;rji=1&amp;amp;stealth=1&amp;amp;uag="&gt;&lt;/script&gt;
+&lt;script type="text/javascript" nonce="2f7c9ee359a7400f87d2f3250de" src="//local.adguard.org?ts=1572211891872&amp;amp;name=AdGuard%20Popup%20Blocker&amp;amp;name=AdGuard%20Assistant&amp;amp;name=AdGuard%20Extra&amp;amp;type=user-script"&gt;&lt;/script&gt;&lt;link rel="stylesheet" type="text/css" href="/min/index.php?g=css" /&gt;
+&lt;script type="247be290c491c435b7c278d9-text/javascript" src="/min/index.php?g=js"&gt;&lt;/script&gt;
+&lt;script type="247be290c491c435b7c278d9-text/javascript"&gt;
+			var URL_SITE	= 'https://www.metal-archives.com/';
+			var URL_IMAGES	= 'https://www.metal-archives.com/images/';
+			var URL_CSS		= 'https://www.metal-archives.com/css/';
+			var csrfToken	= 'g2vBHybVF#rJuE6J5FW.';
+
+			$(document).ready(function() {
+				toggleFixedPositioning(1280, 600);
+				executeOnAllPages();
+				
+											});
+
+
+		&lt;/script&gt;
+&lt;noscript&gt;
+			&lt;style type="text/css"&gt;
+				.no-js { display: block !important; }
+			&lt;/style&gt;
+		&lt;/noscript&gt;
+&lt;!--[if lt IE 8]&gt;
+			&lt;script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"&gt;&lt;/script&gt;
+			 &lt;link rel="stylesheet" type="text/css" href="https://www.metal-archives.com/css/default/oldie.css" /&gt;
+		&lt;![endif]--&gt;
+&lt;script type="247be290c491c435b7c278d9-text/javascript"&gt;
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-4046749-4']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="wrapper"&gt;
+&lt;div id="header"&gt;
+&lt;a href="https://www.metal-archives.com/" id="MA_logo"&gt;Metal Archives&lt;/a&gt;
+&lt;div class="clear loading"&gt;&lt;img src="https://www.metal-archives.com/images/loading.gif" alt="loading" width="12" height="12" /&gt; loading...&lt;/div&gt;
+&lt;div id="search_box"&gt;
+&lt;form id="search_form" action="https://www.metal-archives.com/search" method="get"&gt;
+&lt;div&gt;
+&lt;label&gt;Search:&lt;/label&gt;&lt;br /&gt;
+&lt;input name="searchString" type="text" id="searchQueryBox" size="25" value="" tabindex="1" /&gt;
+&lt;select name="type" tabindex="2"&gt;
+&lt;option value="band_name" selected="selected"&gt;Band name&lt;/option&gt;
+&lt;option value="band_genre"&gt;Music genre&lt;/option&gt;
+&lt;option value="band_themes"&gt;Lyrical themes&lt;/option&gt;
+&lt;option value="album_title"&gt;Album title&lt;/option&gt;
+&lt;option value="song_title"&gt;Song title&lt;/option&gt;
+&lt;option value="label_name"&gt;Label&lt;/option&gt;
+&lt;option value="artist_alias"&gt;Artist&lt;/option&gt;
+&lt;option value="user_name"&gt;User profile&lt;/option&gt;
+&lt;option value="google"&gt;Google&lt;/option&gt;
+&lt;/select&gt;
+&lt;br /&gt;
+&lt;a href="https://www.metal-archives.com/search/advanced/?searchString=&amp;type=band_name" class="float_left" tabindex="4"&gt;Advanced search&lt;/a&gt;
+&lt;button type="submit" class="btn_submit float_right" tabindex="3"&gt;Submit&lt;/button&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;div id="top_menu_box"&gt;
+&lt;ul class="menu_style_1"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/help"&gt;Help&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/rules"&gt;Rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/board/" target="_top"&gt;Forum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_2"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/faq"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/chat"&gt;Chatroom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/support"&gt;Support Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/tools"&gt;Add-ons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+ &lt;div id="left_col"&gt;
+&lt;div id="member_box"&gt;
+&lt;a href="https://www.metal-archives.com/authentication/logout" class="member_logout"&gt;Log out&lt;/a&gt;
+&lt;a href="https://www.metal-archives.com/users/jasniec"&gt;&lt;span class="member_name"&gt;jasniec&lt;/span&gt;&lt;/a&gt;
+&lt;ul class="menu_style_4 ornement_20"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/mine"&gt;My bands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/user/edit"&gt;My profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/collection/edit"&gt;My collection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/review/mine"&gt;My reviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/report/mine"&gt;My reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/recommendation/mine"&gt;My band recs.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/bookmark"&gt;My bookmarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/user/edit#messages"&gt;My messages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href="https://www.metal-archives.com/band/add" class="btn_add_band writeAction"&gt;Add band&lt;/a&gt;
+&lt;/div&gt;
+&lt;div id="left_menu_box"&gt;
+&lt;ul class="menu_style_3 ornement_60 block_spacer_5 contrast"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/queue"&gt;Band queue&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_3 block_spacer_20"&gt;
+&lt;li&gt;
+Bands
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/letter"&gt;alphabetical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/country"&gt;country&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/genre"&gt;genre&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Labels
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/label"&gt;alphabetical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/label/country"&gt;country&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/review/browse"&gt;Reviews&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_3 block_spacer_20"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/artist/rip"&gt;R.I.P.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/random"&gt;Random Band&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/user/list"&gt;User rankings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/news"&gt;News archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_3 ornement_30"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/report/list"&gt;Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/todo"&gt;Contribute / To do&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="left_text_box"&gt;
+&lt;p class="small_text center"&gt; &amp;copy; 2002-2019&lt;br /&gt;Encyclopaedia Metallum &lt;/p&gt;
+&lt;p class="small_text center"&gt;Best viewed&lt;br /&gt; &lt;a href="http://www.getfirefox.com" target="_blank"&gt;without&lt;/a&gt; Internet Explorer, &lt;br /&gt;in 1280 x 960 resolution&lt;br /&gt; or higher.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p class="small_text center"&gt;&lt;a href="https://www.metal-archives.com/content/pp"&gt;Privacy Policy&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="content_wrapper"&gt;
+&lt;script type="247be290c491c435b7c278d9-text/javascript" src="https://www.metal-archives.com/js/jquery/jquery.form.js"&gt;&lt;/script&gt;
+&lt;script type="247be290c491c435b7c278d9-text/javascript"&gt;
+
+	$(document).ready(function() {
+		$(".no-js").removeClass("no-js");
+		$('#album_tabs').tabs({ beforeLoad: cacheTab }).show();
+		$('#album_members').tabs();
+		$('.albumMenu').click(toggleAlbumMenu);
+		 $('#album_members').tabs( { active : 1 } );							toggleLyrics(0);
+			});
+	
+	function hideToolMenu(event) {
+		 $('.toolMenu-content').hide();
+	}
+	
+	function makeChildVersion() {
+		var releaseId = 763303;
+		var newParentId = prompt("Make a child of which album ID?");
+		
+		if(newParentId != null) {
+		
+			$('.loading').show();
+			$.post(URL_SITE + 'review/ajax-validate-move/json/1', { 'releaseId' : newParentId, "oldReleaseId": releaseId }, function(result) {
+				$('.loading').hide();
+				if(result.reviewConflict) {
+					alert("This action would cause at least two reviews by the same user to be listed for one album. This is not allowed. One of the reviews will need to be deleted first.");
+				}
+				else if(result.success) {
+					var confirmMove = confirm("Make this album (and all its own versions, if any) a version of " + result.band + " - " + result.release + "?");
+					
+					if(confirmMove) {
+						var params = { 'releaseId' : releaseId, "newParentId" : newParentId};
+						$('.loading').show();
+						$.post(URL_SITE + 'release/ajax-make-child/json/1', params, function(result) {
+							$('.loading').hide();
+							if(result.success) {
+								location.href = "https://www.metal-archives.com/albums/Belzebubs/Pantheon_of_the_Nightside_Gods/763303";
+							}
+							else {
+								alert("An error occurred: " + result.error);
+							}
+						}, 'json');
+					}
+				}
+				else {
+					alert("An error occurred: " + result.error);
+				}
+			}, 'json');			
+		}
+	}
+    
+    
+&lt;/script&gt;
+&lt;div id="album_sidebar"&gt;
+&lt;a href="https://www.metal-archives.com/bands/Belzebubs/3540442691#band_tab_discography"&gt;Belzebubs&lt;/a&gt;
+&gt; Pantheon of the Nightside Gods
+
+&lt;div class="album_img"&gt;
+&lt;a class="image" id="cover" title="Belzebubs - Pantheon of the Nightside Gods" href="https://www.metal-archives.com/images/7/6/3/3/763303.jpg?5731"&gt;&lt;img src="https://www.metal-archives.com/images/7/6/3/3/763303.jpg?5731" title="Click to zoom" alt="Belzebubs - Pantheon of the Nightside Gods" border="0" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;table cellspacing="1" cellpadding="1" width="262" class="chronology"&gt;
+&lt;tr class="hidden"&gt;
+&lt;th class="spacer"&gt;&lt;/th&gt;
+&lt;th colspan="2"&gt;&lt;/th&gt;
+&lt;th class="spacer"&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th colspan="4"&gt;&lt;span&gt;Belzebubs&lt;/span&gt; discography (all)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr class="prevNext"&gt;
+&lt;td class="arrows"&gt;&lt;a href="https://www.metal-archives.com/albums/Belzebubs/Blackened_Call/723505" title="Blackened Call (Single)"&gt;&lt;&lt;/a&gt; &lt;/td&gt;
+&lt;td class="prev"&gt;
+&lt;a href="https://www.metal-archives.com/albums/Belzebubs/Blackened_Call/723505" title="Blackened Call (Single)"&gt;Blackened Call&lt;/a&gt;&lt;br /&gt;(2018)
+&lt;/td&gt;
+&lt;td class="next"&gt;
+&lt;/td&gt;
+&lt;td class="arrows"&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id="album_content"&gt;
+&lt;div class="tool_strip right"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a title="Report a mistake or additional information for this page" href="javascript:popupReportDialog(4, 763303);" class="btn_report_error writeAction"&gt; &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.metal-archives.com/bands/Belzebubs/3540442691" title="Back to Belzebubs" class="btn_back"&gt; &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id="album_info"&gt;
+
+&lt;h1 class="album_name"&gt;&lt;a href="https://www.metal-archives.com/albums/Belzebubs/Pantheon_of_the_Nightside_Gods/763303"&gt;Pantheon of the Nightside Gods&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 class="band_name"&gt;
+&lt;a href="https://www.metal-archives.com/bands/Belzebubs/3540442691"&gt;Belzebubs&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;div id="tool_strip_01" class="tool_strip writeAction"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a id="bookmark" class="iconContainer ui-state-default ui-corner-all writeAction" href="javascript:;" title="Bookmark this release" onclick="if (!window.__cfRLUnblockHandlers) return false; bookmark(4, 763303, 'add');" data-cf-modified-247be290c491c435b7c278d9-=""&gt;&lt;span class="ui-icon ui-icon-star"&gt;Bookmark&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&amp;nbsp;
+&lt;li&gt;&lt;a class="iconContainer ui-state-default ui-corner-all" href="https://www.metal-archives.com/release/edit/id/763303" title="Edit"&gt;&lt;span class="ui-icon ui-icon-pencil"&gt;Edit&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="iconContainer ui-state-default ui-corner-all" href="https://www.metal-archives.com/lineup/edit/releaseId/763303" title="Edit album line-up"&gt;&lt;span class="ui-icon ui-icon-person"&gt;Edit line-up&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="iconContainer ui-state-default ui-corner-all albumMenu" href="#" id="763303" title="Tools"&gt;&lt;span class="ui-icon ui-icon-wrench"&gt;Tool&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="iconContainer ui-state-default ui-corner-all" href="https://www.metal-archives.com/release/add/parent/763303" id="version_763303" title="Add another version"&gt;&lt;span class="ui-icon ui-icon-plus"&gt;Add version&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="clear block_spacer_5"&gt;&lt;/div&gt;
+&lt;div id="message"&gt; &lt;/div&gt;
+
+&lt;div class="clear block_spacer_20"&gt;&lt;/div&gt;
+&lt;dl class="float_left"&gt;
+&lt;dt&gt;Type:&lt;/dt&gt;
+&lt;dd&gt;Full-length&lt;/dd&gt;
+&lt;dt&gt;Release date:&lt;/dt&gt;
+&lt;dd&gt;April 26th, 2019&lt;/dd&gt;
+&lt;dt&gt;Catalog ID:&lt;/dt&gt;
+&lt;dd&gt;19075933222&lt;/dd&gt;
+&lt;dt&gt;Version desc.:&lt;/dt&gt;
+&lt;dd&gt;Limited edition, Mediabook&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl class="float_right"&gt;
+&lt;dt&gt;Label:&lt;/dt&gt;
+&lt;dd&gt;&lt;a href="https://www.metal-archives.com/labels/Century_Media_Records/4#label_tabs_albums"&gt;Century Media Records&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;Format:&lt;/dt&gt;
+&lt;dd&gt;CD&lt;/dd&gt;
+&lt;dt&gt;Reviews:&lt;/dt&gt;
+&lt;dd&gt;
+1 &lt;a href="https://www.metal-archives.com/reviews/Belzebubs/Pantheon_of_the_Nightside_Gods/763303/"&gt;review&lt;/a&gt; (avg. 80%)
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div id="album_tabs" class="clear tabs block_spacer_top_20 ui-tabs no-js"&gt;
+&lt;ul class="ui-tabs-nav"&gt;
+&lt;li&gt;&lt;a href="#album_tabs_tracklist"&gt;Songs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#album_tabs_lineup"&gt;Lineup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/release/ajax-versions/current/763303/parent/763303"&gt;Other versions&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_tabs_reviews"&gt;Reviews&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;
+
+&lt;div id="album_tabs_tracklist" class="ui-tabs-hide"&gt;
+&lt;div id="album_songs" class="tabs2lvl"&gt;
+
+&lt;/div&gt;
+&lt;div class="ui-tabs-panel-content block_spacer_top_20"&gt;
+&lt;script type="247be290c491c435b7c278d9-text/javascript"&gt;
+function toggleLyrics(songId) {
+    var lyricsRow = $('#song' + songId);
+    lyricsRow.toggle();
+    var lyrics = $('#lyrics_' + songId);
+	if (lyrics.html() == '(loading lyrics...)') {
+    	var realId = songId;
+		if(!$.isNumeric(songId.substring(songId.length -1, songId.length))) {
+			realId = songId.substring(0, songId.length -1);
+		}
+		lyrics.load(URL_SITE + "release/ajax-view-lyrics/id/" + realId);
+    }
+    // toggle link
+    var linkLabel = "lyrics";
+    $("#lyricsButton" + songId).text(lyricsRow.css("display") == "none" ? "Show " + linkLabel : "Hide " + linkLabel);
+    return false;
+}
+
+&lt;/script&gt;
+&lt;table class="display table_lyrics" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4859619" class="anchor"&gt; &lt;/a&gt;1.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Cathedrals of Mourning
+&lt;/td&gt;
+&lt;td align="right"&gt;06:18&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859619" href="#4859619" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859619'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859619" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859619"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4859620" class="anchor"&gt; &lt;/a&gt;2.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+The Faustian Alchemist
+&lt;/td&gt;
+&lt;td align="right"&gt;04:14&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859620" href="#4859620" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859620'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859620" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859620"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4859621" class="anchor"&gt; &lt;/a&gt;3.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Blackened Call
+&lt;/td&gt;
+&lt;td align="right"&gt;03:45&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859621" href="#4859621" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859621'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859621" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859621"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4859622" class="anchor"&gt; &lt;/a&gt;4.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Acheron
+&lt;/td&gt;
+&lt;td align="right"&gt;07:32&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859622" href="#4859622" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859622'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859622" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859622"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4859623" class="anchor"&gt; &lt;/a&gt;5.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Nam Gloria Lucifer
+&lt;/td&gt;
+&lt;td align="right"&gt;04:29&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859623" href="#4859623" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859623'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859623" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859623"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4859624" class="anchor"&gt; &lt;/a&gt;6.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+The Crowned Daughters
+&lt;/td&gt;
+&lt;td align="right"&gt;05:11&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859624" href="#4859624" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859624'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859624" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859624"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4859625" class="anchor"&gt; &lt;/a&gt;7.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Dark Mother
+&lt;/td&gt;
+&lt;td align="right"&gt;09:15&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859625" href="#4859625" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859625'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859625" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859625"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4859626" class="anchor"&gt; &lt;/a&gt;8.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+The Werewolf Bride
+&lt;/td&gt;
+&lt;td align="right"&gt;04:08&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859626" href="#4859626" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859626'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859626" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859626"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4859627" class="anchor"&gt; &lt;/a&gt;9.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Pantheon of the Nightside Gods
+&lt;/td&gt;
+&lt;td align="right"&gt;08:54&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4859627" href="#4859627" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4859627'); return false;" data-cf-modified-247be290c491c435b7c278d9-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859627" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859627"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4859628" class="anchor"&gt; &lt;/a&gt;10.&lt;/td&gt;
+&lt;td class="wrapWords bonus"&gt;
+Nuns in the Purgatory
+&lt;/td&gt;
+&lt;td align="right"&gt;03:14&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;em&gt;instrumental&lt;/em&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859628" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859628"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4859629" class="anchor"&gt; &lt;/a&gt;11.&lt;/td&gt;
+&lt;td class="wrapWords bonus"&gt;
+Maleficarum
+&lt;/td&gt;
+&lt;td align="right"&gt;04:39&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;em&gt;instrumental&lt;/em&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4859629" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4859629"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td align="right"&gt;&lt;strong&gt;01:01:39&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id="album_tabs_lineup"&gt;
+&lt;div id="album_members" class="tabs2lvl"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#album_all_members_lineup"&gt;Complete lineup&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_members_lineup"&gt;Band members&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_members_guest"&gt;Guest/session musicians&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_members_misc"&gt;Other staff&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;
+&lt;div class="tool_strip top right writeAction"&gt;&lt;a href="https://www.metal-archives.com/lineup/edit/releaseId/763303" class="btn_edit2"&gt;Edit&lt;/a&gt;&lt;/div&gt;
+
+&lt;div id="album_all_members_lineup"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Guest/Session
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/ICS_Vortex/1549"&gt;ICS Vortex&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals (track 9) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Lindsay_Schoolcraft/478504"&gt;Skvllcraft&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals (backing) (tracks 1, 7, 8, 10) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/M%C3%B8rkrost/810123"&gt;M&amp;oslash;rkrost&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals (track 6) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Trvebadovr/810124"&gt;Trvebadovr&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals (backing) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Miscellaneous staff
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Dan_Swan%C3%B6/433"&gt;Dan Swan&amp;ouml;&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Mixing, Mastering &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="album_members_lineup"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;em&gt;(None)&lt;/em&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="album_members_guest"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/ICS_Vortex/1549"&gt;ICS Vortex&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals (track 9) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Lindsay_Schoolcraft/478504"&gt;Skvllcraft&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals (backing) (tracks 1, 7, 8, 10) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/M%C3%B8rkrost/810123"&gt;M&amp;oslash;rkrost&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals (track 6) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Trvebadovr/810124"&gt;Trvebadovr&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals (backing) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="album_members_misc"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Dan_Swan%C3%B6/433"&gt;Dan Swan&amp;ouml;&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Mixing, Mastering &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div id="album_tabs_reviews" class="ui-tabs-hide"&gt;
+&lt;div id="album_reviews" class="tabs2lvl"&gt;
+&lt;div class="tool_strip top right writeAction"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/review/write/releaseId/763303" class="btn_add"&gt;Add&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ui-tabs-panel-content block_spacer_top_36"&gt;
+&lt;table id="review_list" class="display" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Belzebubs/Pantheon_of_the_Nightside_Gods/763303/TheSlayFer/466087" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Gateway into Black metal&lt;/td&gt;
+&lt;td&gt;80%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/TheSlayFer" class="profileMenu"&gt;TheSlayFer&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;May 24th, 2019&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id="auditTrail"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;Added by: &lt;a href="https://www.metal-archives.com/users/PaganiusI" class="profileMenu"&gt;PaganiusI&lt;/a&gt;&lt;/td&gt;
+&lt;td align="right"&gt;Modified by: &lt;a href="https://www.metal-archives.com/users/Dying_Hope" class="profileMenu"&gt;Dying_Hope&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Added on: 2019-02-22 13:55:18&lt;/td&gt;
+&lt;td align="right"&gt;Last modified on: 2019-09-26 13:35:57&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/history/view/type/release/id/763303"&gt;View update history&lt;/a&gt;
+| &lt;a href="https://www.metal-archives.com/report/by-object/type/release/id/763303/mode/page"&gt;View report history&lt;/a&gt; &lt;/td&gt;
+&lt;td align="right" valign="top"&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="247be290c491c435b7c278d9-|49" defer=""&gt;&lt;/script&gt;&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
   <data name="Band_Black_Sabbath" xml:space="preserve">
     <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;

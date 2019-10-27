@@ -77,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AttributesTests.cs" />
+    <Compile Include="FullResults\AlbumTests.cs" />
     <Compile Include="FullResults\BandTests.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
