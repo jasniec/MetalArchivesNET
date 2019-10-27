@@ -7,6 +7,9 @@ namespace MetalArchivesNET
     /// </summary>
     public enum Country : short
     {
+        [Description("Unknown")]
+        [DefaultValue("ZZ")]
+        Unknown = -1,
         [Description("Afghanistan")]
         [DefaultValue("AF")]
         Afghanistan,

@@ -37,9 +37,7 @@ namespace MetalArchivesNET.Tests
         {
             IEnumerable<SimpleSongSearchResult> results = MetalArchives.Song.ByName("beneath the trees");
 
-            var band = results.First(b => b.BandName == "Skogen").GetBand();
-
-            Assert.AreNotEqual(null, band);
+            Assert.AreNotEqual(null, results);
         }
 
     }

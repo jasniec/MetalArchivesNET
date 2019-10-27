@@ -17,7 +17,7 @@ namespace MetalArchivesNET.Tests.FullResults
         [TestMethod]
         public void Name()
         {
-            BandResult band = GetBand();
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
 
             Assert.AreEqual("Black Sabbath", band.Name);
         }
@@ -25,7 +25,7 @@ namespace MetalArchivesNET.Tests.FullResults
         [TestMethod]
         public void Country()
         {
-            BandResult band = GetBand();
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
 
             Assert.AreEqual(MetalArchivesNET.Country.UnitedKingdom, band.CountryOfOrigin);
         }
@@ -33,7 +33,7 @@ namespace MetalArchivesNET.Tests.FullResults
         [TestMethod]
         public void Status()
         {
-            BandResult band = GetBand();
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
 
             Assert.AreEqual(BandStatus.SplitUp, band.Status);
         }
@@ -41,7 +41,7 @@ namespace MetalArchivesNET.Tests.FullResults
         [TestMethod]
         public void FormedIn()
         {
-            BandResult band = GetBand();
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
 
             Assert.AreEqual((ushort)1969, band.FormedInYear);
         }
@@ -49,7 +49,7 @@ namespace MetalArchivesNET.Tests.FullResults
         [TestMethod]
         public void LyricalThemesString()
         {
-            BandResult band = GetBand();
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
 
             Assert.AreEqual("Doom, Drugs, Life, Death, Religion", band.LyricalThemesString);
         }
@@ -57,7 +57,7 @@ namespace MetalArchivesNET.Tests.FullResults
         [TestMethod]
         public void LyricalThemes()
         {
-            BandResult band = GetBand();
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
 
             List<string> expected = new List<string>
             {
@@ -74,7 +74,7 @@ namespace MetalArchivesNET.Tests.FullResults
         [TestMethod]
         public void GenresString()
         {
-            BandResult band = GetBand();
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
 
             Assert.AreEqual("Heavy/Doom Metal", band.GenresString);
         }
@@ -82,7 +82,7 @@ namespace MetalArchivesNET.Tests.FullResults
         [TestMethod]
         public void Genres()
         {
-            BandResult band = GetBand();
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
 
             List<string> expected = new List<string>
             {
@@ -92,9 +92,43 @@ namespace MetalArchivesNET.Tests.FullResults
             CollectionAssert.AreEqual(expected, band.Genres.ToList());
         }
 
-        private BandResult GetBand()
+        [TestMethod]
+        public void NotesShort()
         {
-            return WebContentParser.Parse<BandResult>(Resources.Band_Black_Sabbath);
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
+
+            string expected = "Played their final show of their very last tour entitled \"The End\" in Birmingham, England on February 4th, 2017. The band initially retired from large scale touring after the show, but later announced that they broke up.  Black Sabbath are generally considered both the first heavy metal and doom metal band. Originally they were called Polka Tulk (featuring a saxophonist and slide guitarist in ...";
+
+            Assert.AreEqual(expected, band.NotesShort);
+        }
+
+        [TestMethod]
+        public void NotesUrlNotEmpty()
+        {
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
+
+            Assert.AreEqual("https://metal-archives.com/band/read-more/id/99", band.NotesFullUrl);
+        }
+
+        [TestMethod]
+        public void NotesUrlEmpty()
+        {
+            BandResult band = GetBand(Resources.Band_Wormwitch);
+
+            Assert.AreEqual(null, band.NotesFullUrl);
+        }
+
+        [TestMethod]
+        public void NotesFullNotEmpty_NeedInternet()
+        {
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
+
+            Assert.AreNotEqual("", band.GetFullNotes());
+        }
+
+        private BandResult GetBand(string resource)
+        {
+            return WebContentParser.Parse<BandResult>(resource);
         }
     }
 }
