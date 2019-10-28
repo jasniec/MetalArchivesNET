@@ -75,6 +75,30 @@ namespace MetalArchivesNET.Tests.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;table width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;display discog&quot;&gt;
+        ///&lt;thead&gt;
+        ///&lt;tr&gt;
+        ///&lt;th class=&quot;releaseCol&quot;&gt;Name&lt;/th&gt;
+        ///&lt;th class=&quot;typeCol&quot;&gt;Type&lt;/th&gt;
+        ///&lt;th class=&quot;yearCol&quot;&gt;Year&lt;/th&gt;
+        ///&lt;th class=&quot;reviewsCol&quot;&gt;Reviews&lt;/th&gt;
+        ///&lt;/tr&gt;
+        ///&lt;/thead&gt;
+        ///&lt;tbody&gt;
+        ///&lt;tr&gt;
+        ///&lt;td&gt;&lt;a href=&quot;https://www.metal-archives.com/albums/Skogen/Vittra/256524&quot; class=&quot;album&quot;&gt;Vittra&lt;/a&gt;&lt;/td&gt;
+        ///&lt;td class=&quot;album&quot;&gt;Full-length&lt;/td&gt;
+        ///&lt;td class=&quot;album&quot;&gt;2009&lt;/td&gt;
+        ///&lt;td&gt;
+        ///&lt;a href=&quot;https://www.metal-archives.com/reviews/Skogen/Vittra/256524/&quot;&gt;2 (78%)&lt;/ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string AlbumList_Skogen {
+            get {
+                return ResourceManager.GetString("AlbumList_Skogen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
         ///&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
         ///&lt;head&gt;

@@ -22,7 +22,7 @@ namespace MetalArchivesNET.Models.Results.Abstract
         /// Get band's page
         /// </summary>
         /// <returns>Parsed band's page</returns>
-        public BandResult GetBand()
+        public BandResult GetFullBand()
         {
             WebDownloader downloader = new WebDownloader(BandUrl);
             string content = downloader.DownloadData();
@@ -34,7 +34,7 @@ namespace MetalArchivesNET.Models.Results.Abstract
         /// Get band's page async
         /// </summary>
         /// <returns>Parsed band's page</returns>
-        public async Task<BandResult> GetBandAsync()
+        public async Task<BandResult> GetFullBandAsync()
         {
             WebDownloader downloader = new WebDownloader(BandUrl);
             string content = await downloader.DownloadDataAsync();

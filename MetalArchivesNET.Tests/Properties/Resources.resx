@@ -117,6 +117,60 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AlbumList_Skogen" xml:space="preserve">
+    <value>&lt;table width="100%" cellpadding="0" cellspacing="0" class="display discog"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class="releaseCol"&gt;Name&lt;/th&gt;
+&lt;th class="typeCol"&gt;Type&lt;/th&gt;
+&lt;th class="yearCol"&gt;Year&lt;/th&gt;
+&lt;th class="reviewsCol"&gt;Reviews&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/albums/Skogen/Vittra/256524" class="album"&gt;Vittra&lt;/a&gt;&lt;/td&gt;
+&lt;td class="album"&gt;Full-length&lt;/td&gt;
+&lt;td class="album"&gt;2009&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="https://www.metal-archives.com/reviews/Skogen/Vittra/256524/"&gt;2 (78%)&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/albums/Skogen/Svitjod/305602" class="album"&gt;Svitjod&lt;/a&gt;&lt;/td&gt;
+&lt;td class="album"&gt;Full-length&lt;/td&gt;
+&lt;td class="album"&gt;2011&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="https://www.metal-archives.com/reviews/Skogen/Svitjod/305602/"&gt;2 (89%)&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/albums/Skogen/Eld/353382" class="album"&gt;Eld&lt;/a&gt;&lt;/td&gt;
+&lt;td class="album"&gt;Full-length&lt;/td&gt;
+&lt;td class="album"&gt;2012&lt;/td&gt;
+&lt;td&gt;
+&amp;nbsp;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/albums/Skogen/I_d%C3%B6den/403907" class="album"&gt;I döden&lt;/a&gt;&lt;/td&gt;
+&lt;td class="album"&gt;Full-length&lt;/td&gt;
+&lt;td class="album"&gt;2014&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="https://www.metal-archives.com/reviews/Skogen/I_d%C3%B6den/403907/"&gt;1 (90%)&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/albums/Skogen/Skuggorna_kallar/705083" class="album"&gt;Skuggorna kallar&lt;/a&gt;&lt;/td&gt;
+&lt;td class="album"&gt;Full-length&lt;/td&gt;
+&lt;td class="album"&gt;2018&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="https://www.metal-archives.com/reviews/Skogen/Skuggorna_kallar/705083/"&gt;2 (73%)&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</value>
+  </data>
   <data name="Album_Belzebubs" xml:space="preserve">
     <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;

@@ -1,4 +1,6 @@
-﻿using MetalArchivesNET.Models.Results.FullResults;
+﻿using MetalArchivesNET.Models.Enums;
+using MetalArchivesNET.Models.Results.BandResults;
+using MetalArchivesNET.Models.Results.FullResults;
 using MetalArchivesNET.Models.Results.SearchResults;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
@@ -34,19 +36,10 @@ namespace MetalArchivesNET.Tests
         }
 
         [TestMethod]
-        public void GetBand()
-        {
-            IEnumerable<SimpleSongSearchResult> results = MetalArchives.Song.ByName("beneath the trees");
-            BandResult band = results.First().GetBand();
-
-            Assert.AreNotEqual(null, band);
-        }
-
-        [TestMethod]
         public void GetAlbum()
         {
             IEnumerable<SimpleSongSearchResult> results = MetalArchives.Song.ByName("beneath the trees");
-            AlbumResult album = results.First().GetAlbum();
+            AlbumResult album = results.First().GetFullAlbum();
 
             Assert.AreNotEqual(null, album);
         }

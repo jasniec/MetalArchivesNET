@@ -18,7 +18,7 @@ namespace MetalArchivesNET.Models.Results.Abstract
         /// Get album's page
         /// </summary>
         /// <returns>Parsed album's page</returns>
-        public AlbumResult GetAlbum()
+        public AlbumResult GetFullAlbum()
         {
             WebDownloader downloader = new WebDownloader(AlbumUrl);
             string content = downloader.DownloadData();
@@ -30,7 +30,7 @@ namespace MetalArchivesNET.Models.Results.Abstract
         /// Get album's page async
         /// </summary>
         /// <returns>Parsed album's page</returns>
-        public async Task<AlbumResult> GetAlbumAsync()
+        public async Task<AlbumResult> GetFullAlbumAsync()
         {
             WebDownloader downloader = new WebDownloader(AlbumUrl);
             string content = await downloader.DownloadDataAsync();

@@ -1,10 +1,12 @@
 ﻿using HtmlAgilityPack;
 using MetalArchivesNET.CustomWebsiteConverters;
 using MetalArchivesNET.Models.Enums;
+using MetalArchivesNET.Models.Results.BandResults;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using WebsiteParser;
 using WebsiteParser.Attributes;
 using WebsiteParser.Attributes.Enums;
 using WebsiteParser.Converters;
@@ -17,6 +19,14 @@ namespace MetalArchivesNET.Models.Results.FullResults
     /// </summary>
     public class BandResult
     {
+        /// <summary>
+        /// Id of the band
+        /// </summary>
+        [Selector(".band_name a", Attribute = "href")]
+        [Regex(@"/(\d+)$")]
+        [Converter(typeof(ULongConverter))]
+        public ulong Id { get; set; }
+
         /// <summary>
         /// Band's name
         /// </summary>
@@ -165,5 +175,31 @@ namespace MetalArchivesNET.Models.Results.FullResults
         }
         #endregion
 
+        #region Methods
+        /// <summary>
+        /// Gets list of band's albums simple list
+        /// </summary>
+        public IEnumerable<AlbumBandResult> GetAlbums(AlbumListType type)
+        {
+            WebDownloader wd = new WebDownloader($@"https://www.metal-archives.com/band/discography/id/{Id}/tab/" + type.ToString().ToLower());
+            string content = wd.DownloadData();
+
+            return WebContentParser.ParseList<AlbumBandResult>(content);
+        }
+
+        /// <summary>
+        /// Gets list of band's albums simple list async
+        /// </summary>
+        public async Task<IEnumerable<AlbumBandResult>> GetAlbumsAsync(AlbumListType type)
+        {
+            WebDownloader wd = new WebDownloader($@"https://www.metal-archives.com/band/discography/id/{Id}/tab/" + type.ToString().ToLower());
+            string content = await wd.DownloadDataAsync();
+
+            return WebContentParser.ParseList<AlbumBandResult>(content);
+        }
+        #endregion
+
+        //TODO: images
+        //TODO: years active
     }
 }

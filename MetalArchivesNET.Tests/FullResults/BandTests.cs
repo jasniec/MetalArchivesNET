@@ -15,6 +15,14 @@ namespace MetalArchivesNET.Tests.FullResults
     public class BandTests
     {
         [TestMethod]
+        public void Id()
+        {
+            BandResult band = GetBand(Resources.Band_Black_Sabbath);
+
+            Assert.AreEqual((ulong)99, band.Id);
+        }
+
+        [TestMethod]
         public void Name()
         {
             BandResult band = GetBand(Resources.Band_Black_Sabbath);

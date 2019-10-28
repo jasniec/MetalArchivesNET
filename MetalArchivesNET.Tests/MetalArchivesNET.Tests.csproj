@@ -77,8 +77,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AttributesTests.cs" />
+    <Compile Include="BandsResults\AlbumBandResultTests.cs" />
     <Compile Include="FullResults\AlbumTests.cs" />
     <Compile Include="FullResults\BandTests.cs" />
+    <Compile Include="Integration\BandIntegration.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
