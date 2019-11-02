@@ -2,15 +2,13 @@
 using MetalArchivesNET.CustomWebsiteConverters;
 using MetalArchivesNET.Models.Enums;
 using MetalArchivesNET.Models.Results.BandResults;
-using System;
+using MetalArchivesNET.Models.Results.PartResults;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using WebsiteParser;
 using WebsiteParser.Attributes;
 using WebsiteParser.Attributes.Enums;
-using WebsiteParser.Converters;
-using WebsiteParser.Converters.Abstract;
+using WebsiteParser.Attributes.StartAttributes;
 
 namespace MetalArchivesNET.Models.Results.FullResults
 {
@@ -95,47 +93,23 @@ namespace MetalArchivesNET.Models.Results.FullResults
         /// <summary>
         /// Notes of band
         /// </summary>
-        [Selector(".band_comment", NotParseWhenNotFound = true)]
+        [Selector(".band_comment", SkipIfNotFound = true)]
         [Remove("Read more", RemoverValueType.Text)]
         public string NotesShort { get; set; }
 
         /// <summary>
         /// Url of full notes if exists otherwise null
         /// </summary>
-        [Selector(".btn_read_more", Attribute = "onclick", NotParseWhenNotFound = true)]
+        [Selector(".btn_read_more", Attribute = "onclick", SkipIfNotFound = true)]
         [Regex(@"readMore\('(.*?)'\);")]
         [Format(@"https://metal-archives.com/{0}")]
         public string NotesFullUrl { get; set; }
 
-        #region Metadata
         /// <summary>
-        /// Name of user who added band
+        /// Informations about page's add and update
         /// </summary>
-        [Selector(@"#auditTrail table tr:first-child td:first-child a")]
-        public string AddedBy { get; set; }
-
-        /// <summary>
-        /// Band's page add date
-        /// </summary>
-        [Selector(@"#auditTrail table tr:nth-child(2) td:first-child")]
-        [Regex(@"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})")]
-        [Converter(typeof(DateTimeConverter))]
-        public DateTime AddDate { get; set; }
-
-        /// <summary>
-        /// Last modification user's name
-        /// </summary>
-        [Selector(@"#auditTrail table tr:first-child td:last-child a")]
-        public string LastModifiedBy { get; set; }
-
-        /// <summary>
-        /// Last modification date
-        /// </summary>
-        [Selector(@"#auditTrail table tr:nth-child(2) td:nth-child(2)")]
-        [Regex(@"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})")]
-        [Converter(typeof(DateTimeConverter))]
-        public DateTime LastModifiedDate { get; set; }
-        #endregion
+        [WebsiteParserModel(Selector = "#auditTrail")]
+        public Metadata Metadata { get; set; }
 
         #region Additional notes
         /// <summary>

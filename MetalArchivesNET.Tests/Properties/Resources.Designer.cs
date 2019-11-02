@@ -125,5 +125,39 @@ namespace MetalArchivesNET.Tests.Properties {
                 return ResourceManager.GetString("Band_Wormwitch", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hear the blackened call
+        ///Summoning the night
+        ///Hearken to the moon
+        ///Majesty of skies
+        ///
+        ///Armed with the sacred might
+        ///Wielding ancient lore
+        ///Guarded by the blackest words
+        ///I stand by this gate
+        ///
+        ///I command and constrain thee
+        ///O spirits of the night
+        ///By him who spoke the word
+        ///The king of netherworld
+        ///
+        ///Hear the blackened call
+        ///Summoning the night
+        ///Hearken to the moon
+        ///Majesty of skies
+        ///
+        ///I know the secret names
+        ///To unlock hidden vaults
+        ///Mysteries of ancient times
+        ///I grasp them all
+        ///
+        ///Authority from supreme lo [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Song_BlackenedCall {
+            get {
+                return ResourceManager.GetString("Song_BlackenedCall", resourceCulture);
+            }
+        }
     }
 }

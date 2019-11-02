@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using WebsiteParser.Attributes;
+using WebsiteParser.Attributes.StartAttributes;
 
 namespace MetalArchivesNET.Models.Results.BandResults
 {

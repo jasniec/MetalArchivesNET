@@ -4,6 +4,7 @@ using MetalArchivesNET.Tests.Properties;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using WebsiteParser;
+using System.Linq;
 
 namespace MetalArchivesNET.Tests.FullResults
 {
@@ -80,6 +81,14 @@ namespace MetalArchivesNET.Tests.FullResults
             AlbumResult album = GetAlbum(Resources.Album_Belzebubs);
 
             Assert.AreEqual(AlbumFormat.Cd, album.Format);
+        }
+
+        [TestMethod]
+        public void Songs()
+        {
+            AlbumResult album = GetAlbum(Resources.Album_Belzebubs);
+
+            Assert.AreEqual(album.Songs.Count(), 11);
         }
 
         private AlbumResult GetAlbum(string resource)
