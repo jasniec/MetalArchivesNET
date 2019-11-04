@@ -7,6 +7,10 @@
     <Company />
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <RepositoryUrl>https://github.com/jasniec/MetalArchivesNET</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>A web scrapper for metal-archives.com</Description>
+    <PackageTags>metal-archives;metal;dotnet;csharp</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

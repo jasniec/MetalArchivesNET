@@ -2,6 +2,13 @@
 
 MetalArchivesNET is a .NET library which parses [https://www.metal-archives.com](https://www.metal-archives.com) HTML and JSON data into a programmer-friendly code.
 
+# Nuget
+`
+PM> Install-Package MetalArchivesNET -Version 1.0.0
+`\
+\
+[https://www.nuget.org/packages/MetalArchivesNET/1.0.0](https://www.nuget.org/packages/MetalArchivesNET/1.0.0)
+
 ## Usage
 
 ```csharp
