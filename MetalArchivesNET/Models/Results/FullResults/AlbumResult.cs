@@ -17,6 +17,14 @@ namespace MetalArchivesNET.Models.Results.FullResults
     public class AlbumResult : BandResultBase
     {
         /// <summary>
+        /// Metal archives album's identification number
+        /// </summary>
+        [Selector(".album_name a", Attribute = "href")]
+        [Regex(@"/(\d+)$")]
+        [Converter(typeof(ULongConverter))]
+        public ulong Id { get; set; }
+
+        /// <summary>
         /// Band's name
         /// </summary>
         [Selector(".band_name")]

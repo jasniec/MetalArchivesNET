@@ -12,6 +12,14 @@ namespace MetalArchivesNET.Tests.FullResults
     public class AlbumTests
     {
         [TestMethod]
+        public void Id()
+        {
+            AlbumResult album = GetAlbum(Resources.Album_Belzebubs);
+
+            Assert.AreEqual((ulong)763303, album.Id);
+        }
+
+        [TestMethod]
         public void Name()
         {
             AlbumResult album = GetAlbum(Resources.Album_Belzebubs);
